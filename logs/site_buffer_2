@@ -1,0 +1,94 @@
+Ниже — «карта» разметки, которую вы прислали, с пояснениями, зачем нужны ключевые теги и как между собой связаны крупные блоки. Описываю только главные узлы (без десятков `<script>`/`style>`, повторяющихся «countdown-item» и т.д.), чтобы не утонуть в деталях.
+
+```text
+<!DOCTYPE html>
+<html lang="en-US" class="hitim">
+└─ <head>          ← служебная информация, метаданные, CSS, JS
+   ├─ <meta …>     ← кодировка, viewport, SEO-теги, OpenGraph, Twitter Cards
+   ├─ <script id="rt-feature-flags-json"> …   ← JSON-конфиг с фичами сайта
+   ├─ OneTrust      ← блоки скриптов для cookie-консента (GDPR/CCPA)
+   ├─ dataLayer     ← Google Tag Manager: переменные для аналитики
+   ├─ mpscall/mps   ← NBC Universal ad-сервис (реклама)
+   ├─ глобальные константы RT (RT.buildHash, rtUrl, assets и т.д.)
+   ├─ десятки <link rel="stylesheet">          ← базовый WordPress + темы
+   ├─ встроенные <style>                       ← быстрая критическая CSS
+   ├─ встроенные <script>                      ← emoji-polyfill, lazy-load
+   └─ JSON-LD для schema.org/NewsArticle       ← структурированные данные
+
+<body class="body">
+└─ кастомные Web-Components
+   ├─ <cookie-manager>
+   └─ <device-inspection-manager …>
+
+└─ Навигационные модальные/мобильные элементы
+   ├─ #navMenu .modal         ← бургер-меню (соцсети, ссылки, логин)
+   └─ #top_leaderboard_wrapper ← рекламный лидерборд (AD slot)
+
+└─ <div class="header_main">
+   ├─ <div id="navbar" …>             ← основная горизонтальная навигация
+   │   ├─ логотип Rotten Tomatoes
+   │   ├─ поисковая форма (desktop + mobile-вариант)
+   │   ├─ пункты «Movies / TV Shows / News / Fanstore / Showtimes»
+   │   └─ блок «Trending on RT»        ← бегущие популярные темы + соцсети
+   └─ (после navbar) рекламные/баннер-вставки
+
+└─ <div class="body_main container">
+   ├─ .hubBanner                    ← баннер + реклама для конкретного «хаба»
+   ├─ .hub-subnav-bar               ← второстепенное меню подразделов
+   └─ #article_main_body            ← САМИ «100 Best Superhero Movies…»
+       ├─ .social-share             ← кнопки «поделиться»
+       ├─ p.articleContentTags       ← тэги статьи
+       ├─ .articleContentBody        ← основной текст:
+       │   ├─ h1                     ← заголовок
+       │   ├─ hero-изображение + подпись
+       │   ├─ вступительные абзацы
+       │   └─ N × .countdown-item    ← каждый фильм рейтинга
+       │         ├─ .article_movie_poster (img)
+       │         ├─ .article_movie_title (h2 + проценты)
+       │         └─ .info (synopsis, cast, director …)
+       └─ (после текста) встроенные виджеты/подписки
+
+└─ Скрипты внизу body (не показаны, но на реальной странице есть)
+   ├─ аналитика (Adobe DTM, Parsely и др.)
+   ├─ lazy-load JS от Toolset Blocks
+   └─ финальный wp_footer WordPress-хуки
+</body>
+</html>
+```
+
+Ключевые моменты, которые стоит знать о структуре:
+
+1. WordPress + кастомная тема Rotten Tomatoes  
+   • HTML генерируется WordPress-движком, отсюда куча `wp-*` стилей/скриптов.  
+   • Toolset Blocks («tb-») добавляет динамический контент и ленивую загрузку.
+
+2. «Head раздутый»  
+   Почти 90 % кода в `<head>` — это:  
+   • отслеживание (Google Tag Manager, Adobe, WordPress stats);  
+   • реклама (mps, freewheel);  
+   • Cookie Consent (OneTrust);  
+   • флаги функциональности (JSON).  
+   Такой объём нужен для коммерческого медиа-портала, но в личных проектах можно обойтись гораздо меньшим.
+
+3. Кастом-элементы `<cookie-manager>` и `<device-inspection-manager>`  
+   Они подключаются скриптом Rotten Tomatoes и управляют — соответственно — cookie-баннером и проверкой устройства/гео (например, для блокировки видео по регионам).
+
+4. Семантика основного контента  
+   Рейтинг реализован блоками `.countdown-item`; внутри — обычные `<h2>`, `<p>`, списки актёров. Это позволяет поисковикам корректно «понимать» структуру (заголовок — первый уровень, фильмы — второй).
+
+5. Адаптивность  
+   Вёрстка построена на Bootstrap-сети (`col-sm-*`, `visible-xs` и т.п.). Скрипт `mps.getResponsiveSet()` динамически решает, какую рекламу показывать на мобильном/десктопе.
+
+6. Lazy load и «критический CSS»  
+   ‑ Многие стилевые блоки встроены прямо в `<head>` (critical CSS), чтобы ускорить first paint.  
+   ‑ Полные стили/скрипты подгружаются после события `load` или при первом скролле.
+
+7. SEO и соцсети  
+   OpenGraph, Twitter Card, JSON-LD NewsArticle — всё это помогает шэрингу и Google News.
+
+Итого: страница делится на три «пояса»  
+1) «head» — мета + ассеты;  
+2) «глобальный каркас» (навигация, баннеры, футер);  
+3) «article_main_body» — уникальный контент (ваш топ-100).  
+
+Если нужно посмотреть именно DOM-иерархию без лишнего «шума», советую открыть DevTools → Elements и свернуть `<head>`, затем свернуть/развернуть блоки внутри `body`, обращая внимание на ID и классы, перечисленные выше.
