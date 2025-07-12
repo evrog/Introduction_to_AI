@@ -92,3 +92,128 @@
 3) «article_main_body» — уникальный контент (ваш топ-100).  
 
 Если нужно посмотреть именно DOM-иерархию без лишнего «шума», советую открыть DevTools → Elements и свернуть `<head>`, затем свернуть/развернуть блоки внутри `body`, обращая внимание на ID и классы, перечисленные выше.
+
+------------------------------------------------------------------------------------------
+
+Ниже ‒ минимальный, но рабочий пример парсера на Python, который:
+
+1. скачивает страницу «100 Best Superhero Movies…» (или читает из локального файла);  
+2. вытаскивает из каждого блока «countdown-item» название фильма;  
+3. берёт первый `tMeterScore` — это и есть процент «Tomatometer» (оценка критиков);  
+4. выводит результаты в виде списка словарей и/или сохраняет в CSV.
+
+Требуются только два внешних пакета: `requests` и `beautifulsoup4`.
+
+```bash
+pip install requests beautifulsoup4
+```
+
+```python
+import csv
+import re
+import requests
+from bs4 import BeautifulSoup
+
+URL = "https://editorial.rottentomatoes.com/guide/best-superhero-movies-of-all-time/"
+
+HEADERS = {
+    # RottenTomatoes иногда блокирует «безымянные» клиенты.
+    "User-Agent": "Mozilla/5.0 (compatible; scraping-example/1.0)",
+}
+
+def get_html(url: str) -> str:
+    """Скачиваем HTML (можно заменить чтением из файла)."""
+    resp = requests.get(url, headers=HEADERS, timeout=15)
+    resp.raise_for_status()
+    return resp.text
+
+def parse_movies(html: str):
+    soup = BeautifulSoup(html, "html.parser")
+    
+    # Каждый фильм лежит в div.countdown-item
+    for item in soup.select("#article_main_body .countdown-item"):
+        # 1) Название
+        a_tag = item.select_one(".article_movie_title h2 a")
+        if not a_tag:      # вдруг блок без данных
+            continue
+        title = a_tag.get_text(strip=True)
+
+        # 2) Первый tMeterScore = рейтинг критиков
+        span_score = item.select_one(".article_movie_title .tMeterScore")
+        rating = span_score.get_text(strip=True) if span_score else "n/a"
+
+        # 3) Чистим от лишних символов «%»
+        rating_num = int(re.sub(r"\D", "", rating)) if rating != "n/a" else None
+
+        yield {
+            "title": title,
+            "rating_percent": rating_num,
+        }
+
+def save_csv(data, filename="superhero_movies.csv"):
+    with open(filename, "w", newline="", encoding="utf-8") as f:
+        writer = csv.DictWriter(f, fieldnames=["title", "rating_percent"])
+        writer.writeheader()
+        writer.writerows(data)
+
+def main():
+    html = get_html(URL)
+    movies = list(parse_movies(html))
+
+    # Пример — выводим первые 10 записей
+    for m in movies[:10]:
+        print(f"{m['title']:<40} {m['rating_percent']}%")
+
+    # Сохраняем в CSV, если нужно
+    save_csv(movies)
+
+if __name__ == "__main__":
+    main()
+```
+
+Что делает скрипт
+------------------
+• `get_html` берёт HTML (при желании замените `open("page.html").read()`, если у вас локальный файл).  
+• `parse_movies` пробегает по каждому блоку `.countdown-item`, находит:  
+　‒ ссылку `h2 > a` → название фильма;  
+　‒ первый `span.tMeterScore` → рейтинг критиков (в HTML их два: критики + зрители).  
+• Регулярным выражением убираем `%` и переводим в целое число.  
+• Сохраняем в CSV или используем список `movies` в дальнейшей логике.
+
+Если нужен и рейтинг зрителей
+-----------------------------
+Внутри блока `.article_movie_title` есть два `<span class="tMeterScore">`:  
+1-й — критики; 2-й — зрители. Можно получить их так:
+
+```python
+scores = item.select(".article_movie_title .tMeterScore")
+critics = int(re.sub(r"\D","", scores[0].text)) if len(scores) > 0 else None
+audience = int(re.sub(r"\D","", scores[1].text)) if len(scores) > 1 else None
+```
+
+И добавить к выводимому словарю.
+
+Готово — парсер забирает названия и проценты рейтинга прямо из HTML-разметки страницы.
+
+------------------------------------------------------------------------------------------
+
+Вот все встречающиеся в присланном фрагменте страницы заголовки второго уровня (`<h2>`), в порядке появления:
+
+1. Spider-Man: Into the Spider-Verse  
+2. The Incredibles  
+3. Black Panther  
+4. Spider-Man: Across the Spider-Verse  
+5. Teenage Mutant Ninja Turtles: Mutant Mayhem  
+6. Avengers: Endgame  
+7. The Dark Knight  
+8. Iron Man  
+9. Smoking Causes Coughing  
+10. Logan  
+11. Wonder Woman  
+12. Thor: Ragnarok  
+13. Spider-Man: No Way Home  
+14. Incredibles 2  
+15. Spider-Man 2  
+16. Spider-Man: Homecoming  
+17. Guardians of the Galaxy  
+18. RoboCop
