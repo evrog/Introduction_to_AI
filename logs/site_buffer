@@ -1,0 +1,1485 @@
+Расскажи мне об html структуре этой страницы:
+
+
+<!DOCTYPE html>
+<html lang="en-US" class="hitim">
+<head prefix="og: http://ogp.me/ns# flixstertomatoes: http://ogp.me/ns/apps/flixstertomatoes#">
+	<meta http-equiv="content-type" content="text/html; charset=UTF-8" />
+	
+	<script id="rt-feature-flags-json" type="application/json">{"adsCarouselHP":"false","adsCarouselHPSlug":"rt-sponsored-carousel-list-mcdonalds-hp","adsCarouselOP":"false","adsCarouselOPSlug":"rt-sponsored-carousel-list-mcdonalds-op","adsMockDLP":"false","adsPages":"none","adsVideoSpotlightHP":"false","artiEnabled":"false","authPasswordEnabled":"true","authVerboseLogs":"false","bypassCriticValidationEnabled":"false","castAndCrewEnabled":"true","crssoEnabled":"false","editorialApiDisabled":"false","faqUpdatesEnabled":"true","legacyBridge":"true","logVerboseEnabled":"false","mobileAppAndroid":"https:\/\/play.google.com\/store\/apps\/details?id=com.rottentomatoes.android","mobileAppIos":"https:\/\/apps.apple.com\/us\/app\/rotten-tomatoes-movies-tv\/id6673916573","mobileAppIosMeta":"app-id=6673916573, app-argument=https:\/\/www.rottentomatoes.com\/","mobileNavEnabled":"false","pageJsonEnabled":"false","profilesFeaturesEnabled":"false","profilesUsernameEnabled":"false","redesignMediaHeroEnabled":"true","redesignMoreLikeThis":"true","redesignSortTable":"true","trafficAndroidEnabled":"false","trafficSafariEnabled":"true","userMigrationEnabled":"true","versantFreewheelEnabled":"false","videoGeoFencingEnabled":"true"}</script>
+
+	<!-- OneTrust Cookies Consent Notice start for rottentomatoes.com -->
+	<script src="https://cdn.cookielaw.org/consent/7e979733-6841-4fce-9182-515fac69187f/otSDKStub.js"
+		type="text/javascript"
+		charset="UTF-8"
+		data-domain-script="7e979733-6841-4fce-9182-515fac69187f"
+		integrity="sha384-TKdmlzVmoD70HzftTw4WtOzIBL5mNx8mXSRzEvwrWjpIJ7FZ/EuX758yMDWXtRUN"
+		crossorigin="anonymous" >
+	</script>
+	<script type="text/javascript">
+		function OptanonWrapper() { }
+	</script>
+	<!-- OneTrust Cookies Consent Notice end for rottentomatoes.com -->
+	<!-- OneTrust IAB US Privacy (USP) -->
+	<script src="https://cdn.cookielaw.org/opt-out/otCCPAiab.js"
+		type="text/javascript"
+		charset="UTF-8"
+		ccpa-opt-out-ids="USP"
+		ccpa-opt-out-geo="US"
+		ccpa-opt-out-lspa="false">
+	</script>
+	<!-- OneTrust IAB US Privacy (USP) end -->
+
+			<meta name="apple-itunes-app" content="app-id=6673916573, app-argument=https://www.rottentomatoes.com/">
+	
+	<meta property='og.description' content="See what got inducted into the legion of Fresh, from Avengers to Batman to Mystery Men and beyond!" />
+	<meta name='description' content="See what got inducted into the legion of Fresh, from Avengers to Batman to Mystery Men and beyond!" />
+	<meta property='og:title' content="100 Best Superhero Movies Ranked (Superman)" />
+	<meta property='og:type' content="article" />
+	<meta property='og:image' content="https://editorial.rottentomatoes.com/wp-content/uploads/2024/07/600Superman5.jpg?w=600" />
+	<meta property='og:url' content="https://editorial.rottentomatoes.com/guide/best-superhero-movies-of-all-time/" />
+	<meta name='editorialID' content="237626" />
+	<meta property='fb:app_id' content="" />
+
+	<meta name='twitter:card' content="summary_large_image" />
+	<meta name="twitter:site" content="@rottentomatoes" />
+	<meta name="twitter:title" content="100 Best Superhero Movies Ranked (Superman)" />
+	<meta name="twitter:description" content="See what got inducted into the legion of Fresh, from Avengers to Batman to Mystery Men and beyond!" />
+	<meta name="twitter:image" content="https://editorial.rottentomatoes.com/wp-content/uploads/2024/07/600Superman5.jpg?w=600" />
+
+	<title>  100 Best Superhero Movies Ranked (Superman)							 | 	Rotten Tomatoes</title>
+	<meta http-equiv="X-UA-Compatible" content="IE=edge">
+	<meta name="viewport" content="width=device-width, initial-scale=1">
+	<link rel="pingback" href="https://editorial.rottentomatoes.com/xmlrpc.php" />
+	<link rel="icon" type="image/x-icon" href="https://editorial.rottentomatoes.com/wp-content/themes/RottenTomatoes/images/icons/favicon.ico" />
+
+		<script>
+		// Push column to dataLayer
+		var dataLayer = dataLayer || [];
+
+		dataLayer.push({
+			"post-url": "https:\/\/editorial.rottentomatoes.com\/guide\/best-superhero-movies-of-all-time\/",
+			"column": "71",
+			"hub":237626,
+			"author": "rt-staff",
+			"related-tv-series-ids": [],
+			"related-movie-ids": [],
+			"publication-date": "07\/11\/2025",
+			"related-celebrity-ids": [],
+			"tags": ["DC Comics","Marvel","movies","Superheroes"]		});
+	</script>
+	
+	<script>
+		var BK = {};
+		BK.PageName="https:\/\/editorial.rottentomatoes.com\/guide\/best-superhero-movies-of-all-time\/";
+		BK.SiteSection="guide";
+		BK.ArticleTags=["DC Comics","Marvel","movies","Superheroes"];
+		BK.RelatedMovieId=[];
+		BK.RelatedTalentId=[];
+		BK.RelatedTVSeriesId=[];
+
+		var mpscall = mpscall || {};
+		mpscall = {
+			"site":"rottentomatoes-web",
+			"field[env]": "production", // Execution environment.
+			"type": "guide",
+			"cat": "guide|Binge-Guide"		};
+		var mpsopts = {
+		"host":"mps.nbcuni.com",
+		"updatecorrelator":true
+		}
+		var mps=mps||{};mps._ext=mps._ext||{};mps._adsheld=[];mps._queue=mps._queue||{};mps._queue.mpsloaded=mps._queue.mpsloaded||[];mps._queue.mpsinit=mps._queue.mpsinit||[];mps._queue.gptloaded=mps._queue.gptloaded||[];mps._queue.adload=mps._queue.adload||[];mps._queue.adclone=mps._queue.adclone||[];mps._queue.adview=mps._queue.adview||[];mps._queue.refreshads=mps._queue.refreshads||[];mps.__timer=Date.now();mps.__intcode="v2";if(typeof mps.getAd!="function")mps.getAd=function(adunit){if(typeof adunit!="string")return false;var slotid="mps-getad-"+adunit.replace(/\W/g,"");if(!mps._ext||!mps._ext.loaded){mps._queue.gptloaded.push(function(){typeof mps._gptfirst=="function"&&mps._gptfirst(adunit,slotid);mps.cloneAd("#"+slotid,adunit)});mps._adsheld.push(adunit)}return'<div id="'+slotid+'" class="mps-wrapper" data-mps-fill-slot="'+adunit+'"></div>'};(function(){head=document.head||document.getElementsByTagName("head")[0],mpsload=document.createElement("script");mpsload.src="//"+mpsopts.host+"/fetch/ext/load-"+mpscall.site+".js?nowrite=2";mpsload.id="mps-load";head.insertBefore(mpsload,head.firstChild)})();
+	</script>
+
+	<script type='text/javascript'>
+		var RT = RT || {};
+		RT.buildHash = "898d4bef";
+		RT.rtUrl = "https://www.rottentomatoes.com";
+		RT.rtApiUrl = "https://www.rottentomatoes.com";
+    RT.rtIntApiUrl = "https://int.rottentomatoes.com";
+    RT.rtAssets = "https://editorial.rottentomatoes.com/wp-content/themes/RottenTomatoes";
+		RT.buildCache = function(path) {
+			try {
+				if (!RT.buildHash) return path;
+
+				const glue = path.includes('?') ? '&' : '?';
+				return `${path}${glue}b=${RT.buildHash}`;
+			} catch (err) {
+				return path;
+			}
+		}
+
+		var googletag = googletag || {};
+		googletag.cmd = googletag.cmd || [];
+		googletag.unitIds = [];
+	</script>
+
+		<meta name='robots' content='max-image-preview:large' />
+	<style>img:is([sizes="auto" i], [sizes^="auto," i]) { contain-intrinsic-size: 3000px 1500px }</style>
+	<link rel='dns-prefetch' href='//stats.wp.com' />
+<link rel='dns-prefetch' href='//cdn.parsely.com' />
+<link rel='dns-prefetch' href='//assets.adobedtm.com' />
+<link rel='dns-prefetch' href='//ajax.googleapis.com' />
+<link rel="alternate" type="application/rss+xml" title="Rotten Tomatoes &raquo; 100 Best Superhero Movies Ranked (Superman) Comments Feed" href="https://editorial.rottentomatoes.com/guide/best-superhero-movies-of-all-time/feed/" />
+<script type="text/javascript">
+/* <![CDATA[ */
+window._wpemojiSettings = {"baseUrl":"https:\/\/s.w.org\/images\/core\/emoji\/15.1.0\/72x72\/","ext":".png","svgUrl":"https:\/\/s.w.org\/images\/core\/emoji\/15.1.0\/svg\/","svgExt":".svg","source":{"concatemoji":"https:\/\/editorial.rottentomatoes.com\/wp-includes\/js\/wp-emoji-release.min.js?ver=898d4bef"}};
+/*! This file is auto-generated */
+!function(i,n){var o,s,e;function c(e){try{var t={supportTests:e,timestamp:(new Date).valueOf()};sessionStorage.setItem(o,JSON.stringify(t))}catch(e){}}function p(e,t,n){e.clearRect(0,0,e.canvas.width,e.canvas.height),e.fillText(t,0,0);var t=new Uint32Array(e.getImageData(0,0,e.canvas.width,e.canvas.height).data),r=(e.clearRect(0,0,e.canvas.width,e.canvas.height),e.fillText(n,0,0),new Uint32Array(e.getImageData(0,0,e.canvas.width,e.canvas.height).data));return t.every(function(e,t){return e===r[t]})}function u(e,t,n){switch(t){case"flag":return n(e,"\ud83c\udff3\ufe0f\u200d\u26a7\ufe0f","\ud83c\udff3\ufe0f\u200b\u26a7\ufe0f")?!1:!n(e,"\ud83c\uddfa\ud83c\uddf3","\ud83c\uddfa\u200b\ud83c\uddf3")&&!n(e,"\ud83c\udff4\udb40\udc67\udb40\udc62\udb40\udc65\udb40\udc6e\udb40\udc67\udb40\udc7f","\ud83c\udff4\u200b\udb40\udc67\u200b\udb40\udc62\u200b\udb40\udc65\u200b\udb40\udc6e\u200b\udb40\udc67\u200b\udb40\udc7f");case"emoji":return!n(e,"\ud83d\udc26\u200d\ud83d\udd25","\ud83d\udc26\u200b\ud83d\udd25")}return!1}function f(e,t,n){var r="undefined"!=typeof WorkerGlobalScope&&self instanceof WorkerGlobalScope?new OffscreenCanvas(300,150):i.createElement("canvas"),a=r.getContext("2d",{willReadFrequently:!0}),o=(a.textBaseline="top",a.font="600 32px Arial",{});return e.forEach(function(e){o[e]=t(a,e,n)}),o}function t(e){var t=i.createElement("script");t.src=e,t.defer=!0,i.head.appendChild(t)}"undefined"!=typeof Promise&&(o="wpEmojiSettingsSupports",s=["flag","emoji"],n.supports={everything:!0,everythingExceptFlag:!0},e=new Promise(function(e){i.addEventListener("DOMContentLoaded",e,{once:!0})}),new Promise(function(t){var n=function(){try{var e=JSON.parse(sessionStorage.getItem(o));if("object"==typeof e&&"number"==typeof e.timestamp&&(new Date).valueOf()<e.timestamp+604800&&"object"==typeof e.supportTests)return e.supportTests}catch(e){}return null}();if(!n){if("undefined"!=typeof Worker&&"undefined"!=typeof OffscreenCanvas&&"undefined"!=typeof URL&&URL.createObjectURL&&"undefined"!=typeof Blob)try{var e="postMessage("+f.toString()+"("+[JSON.stringify(s),u.toString(),p.toString()].join(",")+"));",r=new Blob([e],{type:"text/javascript"}),a=new Worker(URL.createObjectURL(r),{name:"wpTestEmojiSupports"});return void(a.onmessage=function(e){c(n=e.data),a.terminate(),t(n)})}catch(e){}c(n=f(s,u,p))}t(n)}).then(function(e){for(var t in e)n.supports[t]=e[t],n.supports.everything=n.supports.everything&&n.supports[t],"flag"!==t&&(n.supports.everythingExceptFlag=n.supports.everythingExceptFlag&&n.supports[t]);n.supports.everythingExceptFlag=n.supports.everythingExceptFlag&&!n.supports.flag,n.DOMReady=!1,n.readyCallback=function(){n.DOMReady=!0}}).then(function(){return e}).then(function(){var e;n.supports.everything||(n.readyCallback(),(e=n.source||{}).concatemoji?t(e.concatemoji):e.wpemoji&&e.twemoji&&(t(e.twemoji),t(e.wpemoji)))}))}((window,document),window._wpemojiSettings);
+/* ]]> */
+</script>
+<style id='wp-emoji-styles-inline-css'>
+
+	img.wp-smiley, img.emoji {
+		display: inline !important;
+		border: none !important;
+		box-shadow: none !important;
+		height: 1em !important;
+		width: 1em !important;
+		margin: 0 0.07em !important;
+		vertical-align: -0.1em !important;
+		background: none !important;
+		padding: 0 !important;
+	}
+</style>
+<link rel='stylesheet' id='all-css-2' href='https://editorial.rottentomatoes.com/wp-includes/css/dist/block-library/style.min.css?m=1746040294g' type='text/css' media='all' />
+<style id='classic-theme-styles-inline-css'>
+/*! This file is auto-generated */
+.wp-block-button__link{color:#fff;background-color:#32373c;border-radius:9999px;box-shadow:none;text-decoration:none;padding:calc(.667em + 2px) calc(1.333em + 2px);font-size:1.125em}.wp-block-file__button{background:#32373c;color:#fff;text-decoration:none}
+</style>
+<style id='co-authors-plus-coauthors-style-inline-css'>
+.wp-block-co-authors-plus-coauthors.is-layout-flow [class*=wp-block-co-authors-plus]{display:inline}
+
+</style>
+<style id='co-authors-plus-avatar-style-inline-css'>
+.wp-block-co-authors-plus-avatar :where(img){height:auto;max-width:100%;vertical-align:bottom}.wp-block-co-authors-plus-coauthors.is-layout-flow .wp-block-co-authors-plus-avatar :where(img){vertical-align:middle}.wp-block-co-authors-plus-avatar:is(.alignleft,.alignright){display:table}.wp-block-co-authors-plus-avatar.aligncenter{display:table;margin-inline:auto}
+
+</style>
+<style id='co-authors-plus-image-style-inline-css'>
+.wp-block-co-authors-plus-image{margin-bottom:0}.wp-block-co-authors-plus-image :where(img){height:auto;max-width:100%;vertical-align:bottom}.wp-block-co-authors-plus-coauthors.is-layout-flow .wp-block-co-authors-plus-image :where(img){vertical-align:middle}.wp-block-co-authors-plus-image:is(.alignfull,.alignwide) :where(img){width:100%}.wp-block-co-authors-plus-image:is(.alignleft,.alignright){display:table}.wp-block-co-authors-plus-image.aligncenter{display:table;margin-inline:auto}
+
+</style>
+<style id='rkv-layouts-style-inline-css'>
+body{--wp--custom--layout--column-padding:clamp(1.5rem,1.0588rem + 1.1765vw,2rem);--wp--custom--layout--gap--horizontal:var(--wp--preset--spacing--300,1rem);--block--columns-gap:var(--wp--preset--spacing--600,1rem);--card-gap:var(--wp--custom--layout--column-padding,2rem);--card-gap--horizontal:var(--wp--custom--layout--gap--horizontal,24px);--card-xs-font-size:var(--wp--preset--font-size--small,3rem);--card-xs-line-height:clamp(1.5rem,1.0588rem + 1.1765vw,2rem);--card--link--headline-color-hover:var(--wp--preset--color--eggplant);--card--transition-speed:300ms;--card-background-color:var(--wp--preset--color--white,#fff);--card-text-color:var(--color--neutral-800,inherit);--card--continue-reading-color:var(--wp--preset--color--primary,inherit);--card--continue-reading-color-hover:var(--color--link-hover,inherit);--card--term-list-text-color:var(--wp--preset--color--custom-green,inherit);--card--term-list--item-hover:var(--color--neutral-800);--card-p-font-size:clamp(0.8rem,0.911rem + 0.238vw,1rem);--card--slider--overflow-visible:visible;--card--slider--nav-button-font-size:var(--font-size-800,1rem);--card--slider--nav-button-size:var(--wp--preset--spacing--400,32px);--card--slider--nav-button-inline-offset:calc(-50vw + 50% + var(--scrollbar-width));--card--slider--slide-inline-spacing:calc(var(--block--columns-gap)/2);--card--content-padding:var(--wp--preset--spacing--400,1rem)}@media(min-width:600px){body{--card--slider--nav-button-size:42px;--card--slider--nav-button-font-size:var(--font-size-1000)}}@media(min-width:960px){body{--card--slider--nav-button-inline-offset:-52px}}.card[class]{background-color:var(--card-background-color);color:var(--card-text-color);display:grid;margin-bottom:var(--block--columns-gap);position:relative}.card[class]:last-of-type{margin-bottom:0}.card[class]>*{grid-area:1/-1;height:100%;width:100%}.card[class] .card__inner{box-shadow:var(--wp--preset--shadow--elevation-1);display:flex;flex-direction:column;overflow:hidden;transition:var(--card--transition-speed) ease-in-out}.card[class] .card__link{bottom:0;display:block;height:100%;left:0;right:0;top:0;width:100%;z-index:1}.card[class] .card__link:focus~.card__inner,.card[class] .card__link:hover~.card__inner{box-shadow:var(--wp--preset--shadow--elevation-2)}.card[class] .card__link:focus~.card__inner h2,.card[class] .card__link:hover~.card__inner h2{color:var(--card--link--headline-color-hover)}.card[class] .card__link:focus~.card__inner .card__continue-reading,.card[class] .card__link:hover~.card__inner .card__continue-reading{background-position-x:0;background-size:100% 2px;color:var(--card--continue-reading-color-hover);text-decoration:none}.card[class] .card__inner[class]{pointer-events:none}.card[class] .card__inner[class] a{pointer-events:all;position:relative;z-index:3}.card[class] .card__inner[class] a:focus,.card[class] .card__inner[class] a:hover{color:var(--card--term-list--item-hover)}.card[class] .card__inner[class] h2,.card[class] .card__inner[class] h3,.card[class] .card__inner[class] h4,.card[class] .card__inner[class] h5,.card[class] .card__inner[class] h6{line-height:1.4;margin-bottom:16px;margin-top:0;transition:color var(--card--transition-speed)}.card[class] .card__inner[class] h2{font-size:var(--wp--preset--font-size--large,1.5rem);font-weight:700}.card[class] .card__inner[class]>.card__term-list[class][class]{background:#000;border-radius:8px;color:#fff;left:var(--wp--preset--spacing--300,.5rem);padding:4px 8px;position:absolute;top:var(--wp--preset--spacing--300,.5rem)}.card[class] .card__inner[class]>.card__term-list[class][class] a{font-size:12px;font-weight:500;text-transform:capitalize}.card[class] .card__inner[class] .card__excerpt{margin-bottom:var(--spacing-500,.5rem)}.card[class] .card__inner[class] .card__excerpt p{font-size:var(--card-p-font-size,12px);margin:0}.card[class] .card__inner[class] .card__continue-reading{color:var(--card--continue-reading-color);font-size:1rem;font-weight:700;letter-spacing:1px;line-height:1.25;text-transform:uppercase;transition:color var(--card--transition-speed)}.card[class] .card__figure{margin-bottom:0;overflow:hidden;position:relative;width:100%}.card[class] .card__figure:has(img){aspect-ratio:16/9}.card[class] .card__image{height:100%;left:0;-o-object-fit:cover;object-fit:cover;position:absolute;top:0;transition:transform var(--card--transition-speed);width:100%}.card[class] .card__content-bottom,.card[class] .card__content-top{padding-block:var(--wp--preset--spacing--300,1rem);padding-inline:var(--wp--preset--spacing--300,1rem)}.card[class] .card__content-bottom{box-shadow:inset 0 2px 0 0 #f4f4f4}.card[class] .card__content-bottom p{margin:0}.card[class] .card__author{align-items:center;display:flex;font-size:1rem}.card[class] .card__author img{border-radius:50%;margin-right:var(--wp--preset--spacing--150)}@media(min-width:600px)and (max-width:782px){.card[class].card__orientation-horizontal__mobile{--card-gap--horizontal:32px}}@media(max-width:599px){.card[class].card__orientation-horizontal__mobile .card__inner{flex-direction:row;gap:var(--card-gap--horizontal)}.card[class].card__orientation-horizontal__mobile .card__figure{margin-bottom:0;width:calc(50% - var(--card-gap--horizontal)/2)}.card[class].card__orientation-horizontal__mobile .card__content{width:calc(50% - var(--card-gap--horizontal)/2)}.card[class].card__orientation-horizontal__mobile h2.has-small-font-size{font-size:var(--card-xs-font-size)!important;line-height:var(--card-xs-line-height)}}.wp-block-rkv-slider .card[class]{margin-top:4px}.wp-block-rkv-slider .card[class] .card__figure:has(img){aspect-ratio:1/1}.card__wrapper:not(.has-col-count-1){display:grid;gap:var(--block--columns-gap)}.card__wrapper:not(.has-col-count-1) .card[class]{margin-bottom:0}@media(min-width:600px){.card__wrapper:not(.has-col-count-1){--columns-count:2;grid-template-columns:repeat(var(--columns-count),minmax(0,1fr))}.card__wrapper:not(.has-col-count-1) .card[class]{margin-left:0!important;margin-right:0!important;margin-top:0;width:100%}.card__wrapper:not(.has-col-count-1).has-col-count-2{--columns-count:2}.card__wrapper:not(.has-col-count-1).has-col-count-3{--columns-count:3}.card__wrapper:not(.has-col-count-1).has-col-count-4{--columns-count:4}}@media only screen and (max-width:781px)and (min-width:600px){.card__wrapper{display:flex;gap:var(--block--columns-gap)}.is-mobile-column .card__wrapper{flex-flow:column}.card__wrapper .card[class]{margin-block-start:0;width:100%}}.card__wrapper+.wp-block-buttons{margin-top:clamp(1.5rem,.618rem + 2.353vw,2.5rem)}.card[class].card__orientation-horizontal{font-size:var(--wp--preset--font-size--large)}.card[class].card__orientation-horizontal .card__inner{flex-direction:row}.card[class].card__orientation-horizontal .card__figure:has(img){aspect-ratio:1/1;min-width:unset;width:50%}.card[class].card__orientation-horizontal .card__content{width:50%}@media(min-width:600px)and (max-width:782px){.card[class].card__orientation-horizontal{margin-bottom:0}}@media(min-width:600px){.card[class].card__orientation-horizontal .card__inner{--card-gap--horizontal:32px;gap:0}}.card[class].card__orientation-vertical .card__inner{flex-direction:column}.card[class].card__orientation-vertical .card__inner .card__content{align-items:start;display:flex;flex-flow:column;flex-grow:1;justify-content:space-between}.card[class].card__orientation-vertical .card__inner .card__content>.card__title{line-break:loose}.card[class].card__orientation-vertical .card__inner .card__content .card__excerpt{font-size:var(--wp--preset--font-size--medium,.8rem)}.card[class].card__orientation-vertical .card__inner .card__content>*{box-sizing:border-box;width:100%}.card[class].card__orientation-vertical .card__inner .card__content>.card__continue-reading{align-items:end;display:flex;flex-grow:1;justify-self:end;padding-bottom:8px}.card__term-list[class][class]{color:var(--card--term-list-text-color,#333);-moz-column-gap:16px;column-gap:16px;display:flex;flex-wrap:wrap;font-size:.75rem;letter-spacing:1px;line-height:1.25;list-style-type:none;margin-bottom:16px;margin-top:0;padding-inline-start:0;row-gap:4px}.card__term-list[class][class] .card__term-list-item{font-size:.75rem;letter-spacing:1px;margin-bottom:0;margin-top:0}.card__term-list[class][class] .card__term-list-item a{color:currentcolor}.card__term-list[class][class] .card__term-list-item a:focus,.card__term-list[class][class] .card__term-list-item a:hover{color:var(--card--term-list--item-hover)}.card__term-list[class][class] a{font-weight:700;text-decoration:none;text-transform:uppercase}.card__term-list[class][class] a:focus,.card__term-list[class][class] a:hover{color:var(--card--term-list--item-hover)}
+
+</style>
+<style id='rkv-movies-style-inline-css'>
+.countdown-item-details .info.cast,.countdown-item-details .info.countdown-adjusted-score,.countdown-item-details .info.critics-consensus,.countdown-item-details .info.director,.countdown-item-details .info.synopsis{padding-left:10px;padding-right:10px}@media(min-width:768px){.countdown-item-details .info.cast,.countdown-item-details .info.countdown-adjusted-score,.countdown-item-details .info.critics-consensus,.countdown-item-details .info.director,.countdown-item-details .info.synopsis{padding-left:0;padding-right:0}}
+
+</style>
+<style id='wp-parsely-recommendations-style-inline-css'>
+.parsely-recommendations-list-title{font-size:1.2em}.parsely-recommendations-list{list-style:none;padding:unset}.parsely-recommendations-cardbody{overflow:hidden;padding:.8em;text-overflow:ellipsis;white-space:nowrap}.parsely-recommendations-cardmedia{padding:.8em .8em 0}
+
+</style>
+<link rel='stylesheet' id='all-css-20' href='https://editorial.rottentomatoes.com/_static/??-eJzTLy/QzcxLzilNSS3WzyrWz01NyUxMzUnNTc0rQeEU5CRWphbp5qSmJyZX6uVm5uklFxfr6OPTDpRD5sM02efaGpqbmBmYGBhZmgIARK0u4Q==' type='text/css' media='all' />
+<style id='jetpack-sharing-buttons-style-inline-css'>
+.jetpack-sharing-buttons__services-list{display:flex;flex-direction:row;flex-wrap:wrap;gap:0;list-style-type:none;margin:5px;padding:0}.jetpack-sharing-buttons__services-list.has-small-icon-size{font-size:12px}.jetpack-sharing-buttons__services-list.has-normal-icon-size{font-size:16px}.jetpack-sharing-buttons__services-list.has-large-icon-size{font-size:24px}.jetpack-sharing-buttons__services-list.has-huge-icon-size{font-size:36px}@media print{.jetpack-sharing-buttons__services-list{display:none!important}}.editor-styles-wrapper .wp-block-jetpack-sharing-buttons{gap:0;padding-inline-start:0}ul.jetpack-sharing-buttons__services-list.has-background{padding:1.25em 2.375em}
+</style>
+<link rel='stylesheet' id='all-css-22' href='https://editorial.rottentomatoes.com/wp-content/plugins/toolset-blocks/public/css/views-frontend.css?m=1751401707g' type='text/css' media='all' />
+<style id='view_editor_gutenberg_frontend_assets-inline-css'>
+.wpv-sort-list-dropdown.wpv-sort-list-dropdown-style-default > span.wpv-sort-list,.wpv-sort-list-dropdown.wpv-sort-list-dropdown-style-default .wpv-sort-list-item {border-color: #cdcdcd;}.wpv-sort-list-dropdown.wpv-sort-list-dropdown-style-default .wpv-sort-list-item a {color: #444;background-color: #fff;}.wpv-sort-list-dropdown.wpv-sort-list-dropdown-style-default a:hover,.wpv-sort-list-dropdown.wpv-sort-list-dropdown-style-default a:focus {color: #000;background-color: #eee;}.wpv-sort-list-dropdown.wpv-sort-list-dropdown-style-default .wpv-sort-list-item.wpv-sort-list-current a {color: #000;background-color: #eee;}
+.wpv-sort-list-dropdown.wpv-sort-list-dropdown-style-default > span.wpv-sort-list,.wpv-sort-list-dropdown.wpv-sort-list-dropdown-style-default .wpv-sort-list-item {border-color: #cdcdcd;}.wpv-sort-list-dropdown.wpv-sort-list-dropdown-style-default .wpv-sort-list-item a {color: #444;background-color: #fff;}.wpv-sort-list-dropdown.wpv-sort-list-dropdown-style-default a:hover,.wpv-sort-list-dropdown.wpv-sort-list-dropdown-style-default a:focus {color: #000;background-color: #eee;}.wpv-sort-list-dropdown.wpv-sort-list-dropdown-style-default .wpv-sort-list-item.wpv-sort-list-current a {color: #000;background-color: #eee;}.wpv-sort-list-dropdown.wpv-sort-list-dropdown-style-grey > span.wpv-sort-list,.wpv-sort-list-dropdown.wpv-sort-list-dropdown-style-grey .wpv-sort-list-item {border-color: #cdcdcd;}.wpv-sort-list-dropdown.wpv-sort-list-dropdown-style-grey .wpv-sort-list-item a {color: #444;background-color: #eeeeee;}.wpv-sort-list-dropdown.wpv-sort-list-dropdown-style-grey a:hover,.wpv-sort-list-dropdown.wpv-sort-list-dropdown-style-grey a:focus {color: #000;background-color: #e5e5e5;}.wpv-sort-list-dropdown.wpv-sort-list-dropdown-style-grey .wpv-sort-list-item.wpv-sort-list-current a {color: #000;background-color: #e5e5e5;}
+.wpv-sort-list-dropdown.wpv-sort-list-dropdown-style-default > span.wpv-sort-list,.wpv-sort-list-dropdown.wpv-sort-list-dropdown-style-default .wpv-sort-list-item {border-color: #cdcdcd;}.wpv-sort-list-dropdown.wpv-sort-list-dropdown-style-default .wpv-sort-list-item a {color: #444;background-color: #fff;}.wpv-sort-list-dropdown.wpv-sort-list-dropdown-style-default a:hover,.wpv-sort-list-dropdown.wpv-sort-list-dropdown-style-default a:focus {color: #000;background-color: #eee;}.wpv-sort-list-dropdown.wpv-sort-list-dropdown-style-default .wpv-sort-list-item.wpv-sort-list-current a {color: #000;background-color: #eee;}.wpv-sort-list-dropdown.wpv-sort-list-dropdown-style-grey > span.wpv-sort-list,.wpv-sort-list-dropdown.wpv-sort-list-dropdown-style-grey .wpv-sort-list-item {border-color: #cdcdcd;}.wpv-sort-list-dropdown.wpv-sort-list-dropdown-style-grey .wpv-sort-list-item a {color: #444;background-color: #eeeeee;}.wpv-sort-list-dropdown.wpv-sort-list-dropdown-style-grey a:hover,.wpv-sort-list-dropdown.wpv-sort-list-dropdown-style-grey a:focus {color: #000;background-color: #e5e5e5;}.wpv-sort-list-dropdown.wpv-sort-list-dropdown-style-grey .wpv-sort-list-item.wpv-sort-list-current a {color: #000;background-color: #e5e5e5;}.wpv-sort-list-dropdown.wpv-sort-list-dropdown-style-blue > span.wpv-sort-list,.wpv-sort-list-dropdown.wpv-sort-list-dropdown-style-blue .wpv-sort-list-item {border-color: #0099cc;}.wpv-sort-list-dropdown.wpv-sort-list-dropdown-style-blue .wpv-sort-list-item a {color: #444;background-color: #cbddeb;}.wpv-sort-list-dropdown.wpv-sort-list-dropdown-style-blue a:hover,.wpv-sort-list-dropdown.wpv-sort-list-dropdown-style-blue a:focus {color: #000;background-color: #95bedd;}.wpv-sort-list-dropdown.wpv-sort-list-dropdown-style-blue .wpv-sort-list-item.wpv-sort-list-current a {color: #000;background-color: #95bedd;}
+</style>
+<style id='global-styles-inline-css'>
+:root{--wp--preset--aspect-ratio--square: 1;--wp--preset--aspect-ratio--4-3: 4/3;--wp--preset--aspect-ratio--3-4: 3/4;--wp--preset--aspect-ratio--3-2: 3/2;--wp--preset--aspect-ratio--2-3: 2/3;--wp--preset--aspect-ratio--16-9: 16/9;--wp--preset--aspect-ratio--9-16: 9/16;--wp--preset--color--black: #000000;--wp--preset--color--cyan-bluish-gray: #abb8c3;--wp--preset--color--white: #ffffff;--wp--preset--color--pale-pink: #f78da7;--wp--preset--color--vivid-red: #cf2e2e;--wp--preset--color--luminous-vivid-orange: #ff6900;--wp--preset--color--luminous-vivid-amber: #fcb900;--wp--preset--color--light-green-cyan: #7bdcb5;--wp--preset--color--vivid-green-cyan: #00d084;--wp--preset--color--pale-cyan-blue: #8ed1fc;--wp--preset--color--vivid-cyan-blue: #0693e3;--wp--preset--color--vivid-purple: #9b51e0;--wp--preset--gradient--vivid-cyan-blue-to-vivid-purple: linear-gradient(135deg,rgba(6,147,227,1) 0%,rgb(155,81,224) 100%);--wp--preset--gradient--light-green-cyan-to-vivid-green-cyan: linear-gradient(135deg,rgb(122,220,180) 0%,rgb(0,208,130) 100%);--wp--preset--gradient--luminous-vivid-amber-to-luminous-vivid-orange: linear-gradient(135deg,rgba(252,185,0,1) 0%,rgba(255,105,0,1) 100%);--wp--preset--gradient--luminous-vivid-orange-to-vivid-red: linear-gradient(135deg,rgba(255,105,0,1) 0%,rgb(207,46,46) 100%);--wp--preset--gradient--very-light-gray-to-cyan-bluish-gray: linear-gradient(135deg,rgb(238,238,238) 0%,rgb(169,184,195) 100%);--wp--preset--gradient--cool-to-warm-spectrum: linear-gradient(135deg,rgb(74,234,220) 0%,rgb(151,120,209) 20%,rgb(207,42,186) 40%,rgb(238,44,130) 60%,rgb(251,105,98) 80%,rgb(254,248,76) 100%);--wp--preset--gradient--blush-light-purple: linear-gradient(135deg,rgb(255,206,236) 0%,rgb(152,150,240) 100%);--wp--preset--gradient--blush-bordeaux: linear-gradient(135deg,rgb(254,205,165) 0%,rgb(254,45,45) 50%,rgb(107,0,62) 100%);--wp--preset--gradient--luminous-dusk: linear-gradient(135deg,rgb(255,203,112) 0%,rgb(199,81,192) 50%,rgb(65,88,208) 100%);--wp--preset--gradient--pale-ocean: linear-gradient(135deg,rgb(255,245,203) 0%,rgb(182,227,212) 50%,rgb(51,167,181) 100%);--wp--preset--gradient--electric-grass: linear-gradient(135deg,rgb(202,248,128) 0%,rgb(113,206,126) 100%);--wp--preset--gradient--midnight: linear-gradient(135deg,rgb(2,3,129) 0%,rgb(40,116,252) 100%);--wp--preset--font-size--small: 13px;--wp--preset--font-size--medium: 20px;--wp--preset--font-size--large: 36px;--wp--preset--font-size--x-large: 42px;--wp--preset--spacing--20: 0.44rem;--wp--preset--spacing--30: 0.67rem;--wp--preset--spacing--40: 1rem;--wp--preset--spacing--50: 1.5rem;--wp--preset--spacing--60: 2.25rem;--wp--preset--spacing--70: 3.38rem;--wp--preset--spacing--80: 5.06rem;--wp--preset--shadow--natural: 6px 6px 9px rgba(0, 0, 0, 0.2);--wp--preset--shadow--deep: 12px 12px 50px rgba(0, 0, 0, 0.4);--wp--preset--shadow--sharp: 6px 6px 0px rgba(0, 0, 0, 0.2);--wp--preset--shadow--outlined: 6px 6px 0px -3px rgba(255, 255, 255, 1), 6px 6px rgba(0, 0, 0, 1);--wp--preset--shadow--crisp: 6px 6px 0px rgba(0, 0, 0, 1);}:where(.is-layout-flex){gap: 0.5em;}:where(.is-layout-grid){gap: 0.5em;}body .is-layout-flex{display: flex;}.is-layout-flex{flex-wrap: wrap;align-items: center;}.is-layout-flex > :is(*, div){margin: 0;}body .is-layout-grid{display: grid;}.is-layout-grid > :is(*, div){margin: 0;}:where(.wp-block-columns.is-layout-flex){gap: 2em;}:where(.wp-block-columns.is-layout-grid){gap: 2em;}:where(.wp-block-post-template.is-layout-flex){gap: 1.25em;}:where(.wp-block-post-template.is-layout-grid){gap: 1.25em;}.has-black-color{color: var(--wp--preset--color--black) !important;}.has-cyan-bluish-gray-color{color: var(--wp--preset--color--cyan-bluish-gray) !important;}.has-white-color{color: var(--wp--preset--color--white) !important;}.has-pale-pink-color{color: var(--wp--preset--color--pale-pink) !important;}.has-vivid-red-color{color: var(--wp--preset--color--vivid-red) !important;}.has-luminous-vivid-orange-color{color: var(--wp--preset--color--luminous-vivid-orange) !important;}.has-luminous-vivid-amber-color{color: var(--wp--preset--color--luminous-vivid-amber) !important;}.has-light-green-cyan-color{color: var(--wp--preset--color--light-green-cyan) !important;}.has-vivid-green-cyan-color{color: var(--wp--preset--color--vivid-green-cyan) !important;}.has-pale-cyan-blue-color{color: var(--wp--preset--color--pale-cyan-blue) !important;}.has-vivid-cyan-blue-color{color: var(--wp--preset--color--vivid-cyan-blue) !important;}.has-vivid-purple-color{color: var(--wp--preset--color--vivid-purple) !important;}.has-black-background-color{background-color: var(--wp--preset--color--black) !important;}.has-cyan-bluish-gray-background-color{background-color: var(--wp--preset--color--cyan-bluish-gray) !important;}.has-white-background-color{background-color: var(--wp--preset--color--white) !important;}.has-pale-pink-background-color{background-color: var(--wp--preset--color--pale-pink) !important;}.has-vivid-red-background-color{background-color: var(--wp--preset--color--vivid-red) !important;}.has-luminous-vivid-orange-background-color{background-color: var(--wp--preset--color--luminous-vivid-orange) !important;}.has-luminous-vivid-amber-background-color{background-color: var(--wp--preset--color--luminous-vivid-amber) !important;}.has-light-green-cyan-background-color{background-color: var(--wp--preset--color--light-green-cyan) !important;}.has-vivid-green-cyan-background-color{background-color: var(--wp--preset--color--vivid-green-cyan) !important;}.has-pale-cyan-blue-background-color{background-color: var(--wp--preset--color--pale-cyan-blue) !important;}.has-vivid-cyan-blue-background-color{background-color: var(--wp--preset--color--vivid-cyan-blue) !important;}.has-vivid-purple-background-color{background-color: var(--wp--preset--color--vivid-purple) !important;}.has-black-border-color{border-color: var(--wp--preset--color--black) !important;}.has-cyan-bluish-gray-border-color{border-color: var(--wp--preset--color--cyan-bluish-gray) !important;}.has-white-border-color{border-color: var(--wp--preset--color--white) !important;}.has-pale-pink-border-color{border-color: var(--wp--preset--color--pale-pink) !important;}.has-vivid-red-border-color{border-color: var(--wp--preset--color--vivid-red) !important;}.has-luminous-vivid-orange-border-color{border-color: var(--wp--preset--color--luminous-vivid-orange) !important;}.has-luminous-vivid-amber-border-color{border-color: var(--wp--preset--color--luminous-vivid-amber) !important;}.has-light-green-cyan-border-color{border-color: var(--wp--preset--color--light-green-cyan) !important;}.has-vivid-green-cyan-border-color{border-color: var(--wp--preset--color--vivid-green-cyan) !important;}.has-pale-cyan-blue-border-color{border-color: var(--wp--preset--color--pale-cyan-blue) !important;}.has-vivid-cyan-blue-border-color{border-color: var(--wp--preset--color--vivid-cyan-blue) !important;}.has-vivid-purple-border-color{border-color: var(--wp--preset--color--vivid-purple) !important;}.has-vivid-cyan-blue-to-vivid-purple-gradient-background{background: var(--wp--preset--gradient--vivid-cyan-blue-to-vivid-purple) !important;}.has-light-green-cyan-to-vivid-green-cyan-gradient-background{background: var(--wp--preset--gradient--light-green-cyan-to-vivid-green-cyan) !important;}.has-luminous-vivid-amber-to-luminous-vivid-orange-gradient-background{background: var(--wp--preset--gradient--luminous-vivid-amber-to-luminous-vivid-orange) !important;}.has-luminous-vivid-orange-to-vivid-red-gradient-background{background: var(--wp--preset--gradient--luminous-vivid-orange-to-vivid-red) !important;}.has-very-light-gray-to-cyan-bluish-gray-gradient-background{background: var(--wp--preset--gradient--very-light-gray-to-cyan-bluish-gray) !important;}.has-cool-to-warm-spectrum-gradient-background{background: var(--wp--preset--gradient--cool-to-warm-spectrum) !important;}.has-blush-light-purple-gradient-background{background: var(--wp--preset--gradient--blush-light-purple) !important;}.has-blush-bordeaux-gradient-background{background: var(--wp--preset--gradient--blush-bordeaux) !important;}.has-luminous-dusk-gradient-background{background: var(--wp--preset--gradient--luminous-dusk) !important;}.has-pale-ocean-gradient-background{background: var(--wp--preset--gradient--pale-ocean) !important;}.has-electric-grass-gradient-background{background: var(--wp--preset--gradient--electric-grass) !important;}.has-midnight-gradient-background{background: var(--wp--preset--gradient--midnight) !important;}.has-small-font-size{font-size: var(--wp--preset--font-size--small) !important;}.has-medium-font-size{font-size: var(--wp--preset--font-size--medium) !important;}.has-large-font-size{font-size: var(--wp--preset--font-size--large) !important;}.has-x-large-font-size{font-size: var(--wp--preset--font-size--x-large) !important;}
+:where(.wp-block-post-template.is-layout-flex){gap: 1.25em;}:where(.wp-block-post-template.is-layout-grid){gap: 1.25em;}
+:where(.wp-block-columns.is-layout-flex){gap: 2em;}:where(.wp-block-columns.is-layout-grid){gap: 2em;}
+:root :where(.wp-block-pullquote){font-size: 1.5em;line-height: 1.6;}
+</style>
+<link rel='stylesheet' id='all-css-24' href='https://editorial.rottentomatoes.com/_static/??-eJyVjkEOwyAMBD/UxEFqlV6q/qHqB4CigIQxwib5fp1be+Rk7chjLxx18lQkFIGa+5YKA4ZPspNvOhR2l5MHz/98xlRmhRf4OSAxYGB4kWh8E1ohjae628YD645IWJqtA47WCpy2kVaxu5EHguRSDsXuAxZHauJJu53SEx9mvZnrYtbl/gWhuo9b' type='text/css' media='all' />
+<link rel='stylesheet' id='smoothness-css' href='//ajax.googleapis.com/ajax/libs/jqueryui/1.11.3/themes/smoothness/jquery-ui.min.css?ver=1.11.3' media='all' />
+<link rel='stylesheet' id='all-css-26' href='https://editorial.rottentomatoes.com/_static/??-eJzTLy/QTc7PK0nNK9EvyUjNTS3WD8ovAXJD8nMTS/KB3OTiYv300syUVD0gS0efoPriksocsFr7XFtDcxNzI2NLMwtjABxdJf8=' type='text/css' media='all' />
+<script type="text/javascript" src="https://editorial.rottentomatoes.com/wp-content/plugins/toolset-blocks/vendor/toolset/common-es/public/toolset-common-es-frontend.js?m=1751401707g" ></script><script type="text/javascript" src="https://assets.adobedtm.com/77ca722dd820/8bfcb41d6bfe/launch-87da9747ac68.min.js?ver=1.0.0" id="adobedtm-js"></script>
+<script type="text/javascript" src="https://editorial.rottentomatoes.com/_static/??-eJzTLy/QzcxLzilNSS3WzwKiwtLUokoopZebmaeXVayjj0+Rbm5melFiSSpUsX2uraG5iZmBiYGRpWkWAK9jIh4=" ></script><link rel="https://api.w.org/" href="https://editorial.rottentomatoes.com/wp-json/" /><link rel="alternate" title="JSON" type="application/json" href="https://editorial.rottentomatoes.com/wp-json/wp/v2/guide/106334" /><link rel="EditURI" type="application/rsd+xml" title="RSD" href="https://editorial.rottentomatoes.com/xmlrpc.php?rsd" />
+
+<link rel="canonical" href="https://editorial.rottentomatoes.com/guide/best-superhero-movies-of-all-time/" />
+<link rel='shortlink' href='https://editorial.rottentomatoes.com/?p=106334' />
+<link rel="alternate" title="oEmbed (JSON)" type="application/json+oembed" href="https://editorial.rottentomatoes.com/wp-json/oembed/1.0/embed?url=https%3A%2F%2Feditorial.rottentomatoes.com%2Fguide%2Fbest-superhero-movies-of-all-time%2F" />
+<link rel="alternate" title="oEmbed (XML)" type="text/xml+oembed" href="https://editorial.rottentomatoes.com/wp-json/oembed/1.0/embed?url=https%3A%2F%2Feditorial.rottentomatoes.com%2Fguide%2Fbest-superhero-movies-of-all-time%2F&#038;format=xml" />
+	<style>img#wpstats{display:none}</style>
+		<script type="application/ld+json" class="wp-parsely-metadata">{"@context":"https:\/\/schema.org","@type":"NewsArticle","headline":"100 Best Superhero Movies Ranked (Superman)","url":"http:\/\/editorial.rottentomatoes.com\/guide\/best-superhero-movies-of-all-time\/","mainEntityOfPage":{"@type":"WebPage","@id":"http:\/\/editorial.rottentomatoes.com\/guide\/best-superhero-movies-of-all-time\/"},"thumbnailUrl":"https:\/\/editorial.rottentomatoes.com\/wp-content\/uploads\/2024\/07\/600Superman5.jpg?w=240&h=240&crop=1","image":{"@type":"ImageObject","url":"https:\/\/editorial.rottentomatoes.com\/wp-content\/uploads\/2024\/07\/600Superman5.jpg"},"articleSection":"Uncategorized","author":[{"@type":"Person","name":"RT Staff"}],"creator":["RT Staff"],"publisher":{"@type":"Organization","name":"Rotten Tomatoes","logo":"https:\/\/editorial.rottentomatoes.com\/wp-content\/uploads\/2022\/05\/favicon.png"},"keywords":["dc comics","marvel","movies","superheroes"],"dateCreated":"2025-07-11T20:01:23Z","datePublished":"2025-07-11T20:01:23Z","dateModified":"2025-07-11T20:03:10Z"}</script> <script> window.addEventListener("load",function(){ var c={script:false,link:false}; function ls(s) { if(!['script','link'].includes(s)||c[s]){return;}c[s]=true; var d=document,f=d.getElementsByTagName(s)[0],j=d.createElement(s); if(s==='script'){j.async=true;j.src='https://editorial.rottentomatoes.com/wp-content/plugins/toolset-blocks/vendor/toolset/blocks/public/js/frontend.js?v=1.6.15';}else{ j.rel='stylesheet';j.href='https://editorial.rottentomatoes.com/wp-content/plugins/toolset-blocks/vendor/toolset/blocks/public/css/style.css?v=1.6.15';} f.parentNode.insertBefore(j, f); }; function ex(){ls('script');ls('link')} window.addEventListener("scroll", ex, {once: true}); if (('IntersectionObserver' in window) && ('IntersectionObserverEntry' in window) && ('intersectionRatio' in window.IntersectionObserverEntry.prototype)) { var i = 0, fb = document.querySelectorAll("[class^='tb-']"), o = new IntersectionObserver(es => { es.forEach(e => { o.unobserve(e.target); if (e.intersectionRatio > 0) { ex();o.disconnect();}else{ i++;if(fb.length>i){o.observe(fb[i])}} }) }); if (fb.length) { o.observe(fb[i]) } } }) </script>
+	<noscript>
+		<link rel="stylesheet" href="https://editorial.rottentomatoes.com/wp-content/plugins/toolset-blocks/vendor/toolset/blocks/public/css/style.css">
+	</noscript><link rel="icon" href="https://editorial.rottentomatoes.com/wp-content/uploads/2022/05/favicon.png?w=32" sizes="32x32" />
+<link rel="icon" href="https://editorial.rottentomatoes.com/wp-content/uploads/2022/05/favicon.png?w=96" sizes="192x192" />
+<link rel="apple-touch-icon" href="https://editorial.rottentomatoes.com/wp-content/uploads/2022/05/favicon.png?w=96" />
+<meta name="msapplication-TileImage" content="https://editorial.rottentomatoes.com/wp-content/uploads/2022/05/favicon.png?w=96" />
+<style type="text/css" id="rkv-custom-css">.countdown-adjusted-score {
+  display: none;
+}
+.articleContentBody {
+  background-color: #ffffff;
+  padding-bottom: 50px;
+}
+.articleContentBody .info {
+  margin-right: 10px;
+}
+.articleContentBody h1 {
+  color: #000000;
+  font-size: 32px;
+  font-weight: normal;
+  padding: 20px 10px;
+  margin: 0px;
+}
+.articleContentBody p {
+  padding-left: 10px;
+  color: #000000;
+}
+.articleContentBody .info {
+  padding: 5px 0;
+  color: #000000;
+}
+.articleContentBody .descriptor {
+  font-weight: bold;
+}
+.tMeterScore, .subtle {
+  color: #000;
+}
+.countdown-item {
+  padding: 20px 0px;
+  border-top-style: solid;
+  border-top-width: 1px;
+  border-top-color: #000000;
+}
+.articleContentBody .countdown-item-content a {
+  color: #0C89CA !important;
+}
+.articleContentBody .countdown-item-content a:hover {
+  color: #0C89CA !important;
+  text-decoration: none;
+}
+.article_poster {
+  border: 0 !important;
+  padding-left: 10px;
+}
+.countdown-index {
+  color: #fff;
+  background: #393939;
+  width: 60px;
+  height: 54px;
+  text-align: center;
+  float: right;
+  vertical-align: middle;
+  font-size: 24px;
+  font-weight: bold;
+  border-radius: 5px;
+  padding: 10px;
+  margin-right: 15px;
+  margin-bottom: 10px;
+}
+@media (max-width: 767px) {
+  .countdown-index {
+    position: absolute;
+    bottom: 230px;
+    margin-left: 17px;
+  }
+}
+.subtle {
+  color: #000 !important;
+}
+.countdown-index {
+  text-indent: -5px !important;
+}</style></head>
+
+<body class="body">
+	
+<cookie-manager></cookie-manager>
+<device-inspection-manager
+	endpoint="https://www.rottentomatoes.com/napi/device/inspection"
+	countrycode="RU"
+></device-inspection-manager>
+
+
+<div id="navMenu" class="modal fade" role="dialog" aria-labelledby="navMenu">
+	<div class="modal-dialog">
+		<div class="modal-content">
+			<div class="modal-body">
+				<button type="button" class="close" data-dismiss="modal" aria-label="Close">
+					<span class="glyphicon glyphicon-remove"></span>
+				</button>
+				<div class="pull-left">
+					<ul class="list-inline social">
+						<li><a id="header-facebook-social-link" class="unstyled fontelloIcon icon-facebook-squared" href="https://www.facebook.com/rottentomatoes" target="_blank"></a></li>
+						<li><a id="header-twitter-social-link" class="unstyled fontelloIcon icon-twitter" href="https://twitter.com/rottentomatoes" target="_blank"></a></li>
+					</ul>
+				</div>
+				<div class="items">
+					<div class="item">
+						<a class="homeTab unstyled navLink fullLink" href="https://www.rottentomatoes.com/">
+							Home
+						</a>
+					</div>
+					<div class="item">
+						<a class="boxofficeTab unstyled navLink fullLink" href="https://www.rottentomatoes.com/browse/movies_in_theaters/">
+							Top Box Office
+						</a>
+					</div>
+					<div class="item">
+						<a class="theatersTab unstyled navLink fullLink" href="https://www.rottentomatoes.com/theaters/">
+							Tickets &amp; Showtimes
+						</a>
+					</div>
+					<div class="item">
+						<a class="dvdTab unstyled navLink fullLink" href="https://www.rottentomatoes.com/browse/movies_at_home/">
+							DVD &amp; Streaming
+						</a>
+					</div>
+					<div class="item">
+						<a class="tvTab unstyled navLink fullLink" href="https://www.rottentomatoes.com/browse/tv_series_browse/">
+							TV
+						</a>
+					</div>
+					<div class="item">
+						<a class="newsTab unstyled navLink fullLink" href="https://editorial.rottentomatoes.com">
+							News
+						</a>
+					</div>
+				</div>
+				<div class="loginArea">
+					<a href="#signup" data-toggle="modal" data-target="#signup" class="signupLink login">SIGN UP</a>
+					<a href="#login" data-toggle="modal" data-target="#login" class="loginLink login">LOG IN</a>
+					<div class="userProfile" style="display:none">
+						<a class="userProfileLink">
+							<div class="media">
+								<div class="pull-left">
+									<img class="media-object" src="//graph.facebook.com/v2.2/100001988417196/picture"/>
+								</div>
+								<div class="pull-right">
+									<span class="glyphicon glyphicon-cog"></span>
+								</div>
+								<div class="media-body">
+									<span class="name">Jester McGree</span>
+								</div>
+							</div>
+						</a>
+					</div>
+					<div class="logoutRow" style="display:none">
+						<a class="logout" href="/logout/">
+							Logout
+						</a>
+					</div>
+				</div>
+			</div>
+		</div>
+	</div>
+</div>
+
+<div class="body_main container">
+	<div id="top_leaderboard_wrapper" class="leaderboard_wrapper">
+		<div class="leaderboard_helper">
+			<div id="leaderboard_top_ad"></div>
+			<script>
+				//--RESPONSIVE AD SWITCHING (DIFFERENT CONTAINERS)
+				var mps=mps||{}; mps._queue=mps._queue||{}; mps._queue.gptloaded=mps._queue.gptloaded||[];
+				mps._queue.gptloaded.push(function() {
+					if (mps.getResponsiveSet() =='0') { //MOBILE
+						mps.cloneAd('#leaderboard_top_ad','mbanner');
+					} else { //DESKTOP or TABLET
+						mps.cloneAd('#leaderboard_top_ad','topbanner');
+					}
+				});
+			</script>
+		</div>
+	</div>
+
+	<div class="header_main container">
+		<div id="navbar" class="navbar navbar-rt" role="navigation">
+			<div class="navbar-header pull-right hidden-xs">
+				<div class="header_links">
+					<a id="header-whats-the-tomatometer" href="https://www.rottentomatoes.com/about/"><b>About Rotten Tomatoes&reg;</b></a>
+					<a id="header-top-bar-critics" href="https://www.rottentomatoes.com/critics/"><b>Critics</b></a>
+				</div>
+			</div>
+			<div id="header_brand_column" class="col-sm-13 col-full-xs">
+				<div class="hidden-xs desktopNav">
+					<!-- Logo -->
+					<div class="navbar-brand">
+						<a id="header-rt-logo" href="https://www.rottentomatoes.com/">
+							<img src="//images.fandango.com/cms/assets/68ffa860-b30f-11ed-9d20-83ee649e98bd--rotten-logo-ko-322x100.png" />
+						</a>
+					</div>
+					<div id="rt_logo_ad" style="display:none;"></div>
+					<script>
+						var mps=mps||{}; mps._queue=mps._queue||{}; mps._queue.gptloaded=mps._queue.gptloaded||[];
+						mps._queue.gptloaded.push(function() {
+							if (mps.getResponsiveSet() !='0') { //DESKTOP or TABLET
+								mps.rt.insertlogo('#rt_logo_ad', 'ploc=rtlogo;');
+							}
+						});
+					</script>
+					<!-- Search box -->
+					<div id="desktop-search-root">
+						<form action="https://www.rottentomatoes.com/search" method="get">
+							<div class="navbar-searchbox main">
+								<div class="input-group">
+									<input name="search" type="text" class="form-control" placeholder="Search movies, TV, actors, more..." name="srch-term" id="search-term">
+									<div class="input-group-btn">
+										<button type="submit" class="btn btn-default searchBtn">
+											<em class="glyphicon glyphicon-search"></em>
+										</button>
+									</div>
+								</div>
+							</div>
+						</form>
+					</div>
+				</div>
+				<div id="mobile-nav" class="visible-xs mobileNav">
+					<div>
+						<a id="mobile-search-button" href="#">
+							<button class="pull-right navbar-button searchButton">
+								<em class="glyphicon glyphicon-search white"></em>
+							</button>
+						</a>
+					</div>
+
+					<div class="navbar-brand">
+						<a id="header-rt-logo" href="https://www.rottentomatoes.com/">
+							<img src="//images.fandango.com/cms/assets/68ffa860-b30f-11ed-9d20-83ee649e98bd--rotten-logo-ko-322x100.png" />
+						</a>
+					</div>
+
+					<mobile-search action="https://www.rottentomatoes.com/search" hidden></mobile-search>
+
+					<div class="mob-nav-bottom clearfix">
+						<ul id="nav-list" class="nav-list">
+							<li class="nav-item">
+								<a href="https://www.rottentomatoes.com"><i class=" fontelloIcon icon-home"></i>Home</a>
+							</li>
+							<li class="nav-item">
+								<a href="https://www.rottentomatoes.com/browse/movies_in_theaters"><i class=" fontelloIcon icon-boxoffice"></i>Box Office</a>
+							</li>
+							<li class="nav-item">
+								<a href="https://www.rottentomatoes.com/browse/tv_series_browse"><i class=" fontelloIcon icon-tv2"></i>TV</a>
+							</li>
+							<li class="nav-item">
+								<a href="https://www.rottentomatoes.com/browse/movies_at_home"><i class=" fontelloIcon icon-redeem"></i>DVD</a>
+							</li>
+							<li class="nav-item">
+								<a id="menu-btn" class="menu-btn" href="#">
+									<i class=" fontelloIcon icon-more"></i>MORE
+								</a>
+							</li>
+						</ul>
+					</div>
+					<div id="mobile-nav-overlay" class="mobile-nav-overlay">
+						<!--mobile dropdown-->
+						<ul class="mobile-menu-panel">
+							<li class="nav-item"><a href="https://editorial.rottentomatoes.com">News</a></li>
+							<li class="nav-item clearfix d-block">
+								<div class="social-media-box pull-right">
+									<a href="https://www.facebook.com/rottentomatoes" target="_blank" rel="noopener">
+										<i class="fontelloIcon icon-facebook-squared" aria-hidden="true"></i>
+									</a>
+									<a href="https://twitter.com/rottentomatoes" target="_blank" rel="noopener">
+										<i class="fontelloIcon icon-twitter" aria-hidden="true"></i>
+									</a>
+								</div>
+							</li>
+						</ul>
+						<!--mobile dropdown end-->
+					</div>
+				</div>
+			<!--Mobile Nav END-->
+			</div>
+			<div id="menu" class="navbar-nav col-sm-11 hidden-xs">
+				<div class="menu-container">
+					<div id="movieMenuTab" class="menuHeader center noSpacing">
+						<a id="movieMenu" class="h2" href="https://www.rottentomatoes.com/browse/movies_in_theaters">Movies</a>
+					</div>
+					<div id="tvMenuTab" class="menuHeader center noSpacing">
+						<a id="tvMenu" class="h2" href="https://www.rottentomatoes.com/browse/tv_series_browse">TV Shows</a>
+					</div>
+          <div class="menuHeader center noSpacing" style="border-radius: 5px;" id="header-fanstore">
+            <a id="fanStore" class="h2 menuHeader" href="http://store.fandango.com/" target="_blank">Fanstore</a>
+          </div>
+					<div id="newsMenuTab" class="menuHeader center noSpacing">
+						<a id="newsMenu" class="h2" href="https://editorial.rottentomatoes.com">News</a>
+					</div>
+					<div class="menuHeader center noSpacing" style="border-radius: 5px" id="header-tickets-showtimes">
+						<a id="ticketingMenu" class="h2" href="https://www.fandango.com/movies-in-theaters?adid=nav_TS" class="menuHeader" target="_blank">Showtimes</a>
+					</div>
+				</div>
+			</div>
+		</div>
+		<div class="trendingBar hidden-xs">
+			<ul class="list-inline trendingEl">
+				<li class="header">Trending on RT</li>
+			</ul>
+			<div class="list-inline fr">
+				<div id="trending_bar_ad" class="trending-bar-ad" style="display:none;"></div>
+				<div id="trending_bar_social" class="trending-bar_social" data-qa="trending-bar-social-list">
+					<a id="header-facebook-social-link" class="trending-bar__social-link" href="https://www.facebook.com/rottentomatoes" target="_blank" rel="noopener" aria-label="Facebook" data-qa="trending-bar-social-facebook">
+						<rt-icon icon="facebook-official"></rt-icon>
+					</a>
+					<a id="header-twitter-social-link" class="trending-bar__social-link" href="https://twitter.com/rottentomatoes" target="_blank" rel="noopener" aria-label="Twitter" data-qa="trending-bar-social-twitter">
+						<rt-icon icon="twitter-x"></rt-icon>
+					</a>
+					<a id="header-instagram-social-link" class="trending-bar__social-link" href="https://www.instagram.com/rottentomatoes/" target="_blank" rel="noopener" aria-label="Instagram" data-qa="trending-bar-social-instagram">
+						<rt-icon icon="instagram"></rt-icon>
+					</a>
+					<a id="header-tiktok-social-link" class="trending-bar__social-link" href="https://www.tiktok.com/@rottentomatoes" target="_blank" rel="noopener" aria-label="TikTok" data-qa="trending-bar-social-tiktok">
+						<rt-icon icon="tiktok"></rt-icon>
+					</a>
+					<a id="header-youtube-social-link" class="trending-bar__social-link" href="https://www.youtube.com/user/rottentomatoes" target="_blank" rel="noopener" aria-label="Youtube" data-qa="trending-bar-social-youtube">
+						<rt-icon icon="youtube-play"></rt-icon>
+					</a>
+					<a id="header-bluesky-social-link" class="trending-bar__social-link" href="https://bsky.app/profile/rottentomatoes.com" target="_blank" rel="noopener" aria-label="Bluesky" data-qa="trending-bar-social-bluesky">
+						<rt-icon icon="bluesky"></rt-icon>
+					</a>
+				</div>
+			</div>
+			<script>
+				var mps=mps||{}; mps._queue=mps._queue||{}; mps._queue.gptloaded=mps._queue.gptloaded||[];
+				mps._queue.gptloaded.push(function() {
+					if (mps.getResponsiveSet() !='0') { //DESKTOP or TABLET
+						mps.cloneAd('#trending_bar_ad','trendinggraphic');
+					}
+				});
+			</script>
+		</div>
+		<!-- start content container -->
+	<div style="min-height: 528px; background: white;" class="container body_main">
+			<div class="hubBanner">
+		<div class="hub-title-banner">
+
+			
+							<a href='https://editorial.rottentomatoes.com/rt-hub/what-to-watch/'>
+					<img src="https://editorial.rottentomatoes.com/wp-content/uploads/2023/09/RT_WTW_Generic_2023_1100x90_021623.jpg">
+				</a>
+						</div>
+		<div class="hubBannerAd">
+			<div id="hub_ad" class="page_ad"></div>
+			<script>
+				var mps = mps || {};
+				mps._queue = mps._queue || {};
+				mps._queue.gptloaded = mps._queue.gptloaded || [];
+				mps._queue.gptloaded.push(function() {
+					mps.rt.insertlogo('#hub_ad', 'ploc=headerlogo;');
+				});
+			</script>
+		</div>
+	</div>
+	
+	<div class="hub-subnav-bar trendingBar" style="border-top:2px solid #fff">
+		<ul class='list-inline hub-nav-list'>
+			<li><a class='unstyled trendingLink' href='https://editorial.rottentomatoes.com/rt-hub/what-to-watch/'> Home </a> </li>
+											<li> <a class=' unstyled trendingLink' href='https://editorial.rottentomatoes.com/hub-subpage/tv-streaming-shows/'>
+					TV &amp; Streaming Shows				</a></li>
+											<li> <a class=' unstyled trendingLink' href='https://editorial.rottentomatoes.com/hub-subpage/best-popular/'>
+					Best &amp; Popular				</a></li>
+											<li> <a class=' unstyled trendingLink' href='https://editorial.rottentomatoes.com/hub-subpage/upcoming-in-2025/'>
+					Upcoming in 2025				</a></li>
+					</ul>
+	</div>
+
+		<div id="article_main_body" class="col col-left-center col-full-xs article_body best-superhero-movies-of-all-time">
+			<div class="panel-rt panel-box article_body">
+				<div class="social-share">
+					<button class="twitter-share js-twitter-share" aria-label="Share on Twitter">
+						<img src="/wp-content/themes/RottenTomatoes/images/icons/social_twitter.png" class="twitter-share__image" alt="">
+					</button>
+					<button class="facebook-share js-facebook-share" aria-label="Share on Facebook">
+						<img src="/wp-content/themes/RottenTomatoes/images/icons/social_fb_share.png" class="facebook-share__image" alt="">
+					</button>
+					<div class="fb-like" data-href="https://developers.facebook.com/docs/plugins/" data-width="" data-layout="button" data-action="like" data-size="large" data-share="false"></div>
+				</div>
+				<p class="articleContentSocialNetworks articleContentTags">
+					TAGGED AS: <a href="https://editorial.rottentomatoes.com/tag/dc-comics/" rel="tag">DC Comics</a>, <a href="https://editorial.rottentomatoes.com/tag/marvel/" rel="tag">Marvel</a>, <a href="https://editorial.rottentomatoes.com/tag/movies/" rel="tag">movies</a>, <a href="https://editorial.rottentomatoes.com/tag/superheroes/" rel="tag">Superheroes</a>				</p>
+				<div class="articleContentBody">
+					<h1>100 Best Superhero Movies Ranked (<em>Superman</em>)</h1>
+<img fetchpriority="high" decoding="async" class="wp-image-252921 size-full" src="https://editorial.rottentomatoes.com/wp-content/uploads/2024/07/700Superman5.jpg" alt="" width="700" height="250" /><p style="display: block;" class="media-credit image-text">(Photo by WB/courtesy Everett Collection. SUPERMAN.)</p>
+<hr />
+<p><strong>The latest:</strong> DC is back with the first Certified Fresh <em><strong><a href="https://www.rottentomatoes.com/m/superman_2025">Superman</a> </strong></em>movie since <em><a href="https://www.rottentomatoes.com/m/superman_returns">Returns</a> </em>in 2006! <em>Superman</em> is currently the new #52.</p>
+<hr />
+<p>Friends of the super variety, we&#8217;ve collected every Fresh and Certified Fresh superhero movie with at least 20 reviews to assemble our guide to the best superhero movies ever, ranked by Tomatometer!</p>
+<p>It&#8217;s been a decades-long battle towards the top in pop culture for superhero movies, and we&#8217;re featuring here all the goods, the greats, and the masterpieces made along the way. Everything from the Marvel Cinematic Universe (<em>Iron Man</em>, <em>Avengers</em>) to DCEU (<a href="https://www.rottentomatoes.com/m/aquaman_2018"><em>Aquaman</em></a>, <a href="https://www.rottentomatoes.com/m/wonder_woman_2017"><em>Wonder Woman</em></a>), animated fare (<a href="https://www.rottentomatoes.com/m/incredibles"><em>The Incredibles</em></a>, <a href="https://www.rottentomatoes.com/m/megamind"><em>Megamind</em></a>) to live-action spoofs (<a href="https://www.rottentomatoes.com/m/toxic_avenger"><em>The Toxic Avenger</em></a>, <a href="https://www.rottentomatoes.com/m/mystery_men"><em>Mystery Men</em></a>), comedies (<a href="https://www.rottentomatoes.com/m/deadpool"><em>Deadpool</em></a>) and the super serious (<a href="https://www.rottentomatoes.com/m/the_dark_knight"><em>The Dark Knight</em></a>), and then throwing in some originals made just for the big screen (<a href="https://www.rottentomatoes.com/m/rocketeer"><em>The Rocketeer</em></a>, <a href="https://www.rottentomatoes.com/m/darkman"><em>Darkman</em></a>, <a href="https://www.rottentomatoes.com/m/unbreakable"><em>Unbreakable</em></a>).</p>
+<p>Recently, we&#8217;ve added the meta-crushing <em><a href="https://www.rottentomatoes.com/m/deadpool_and_wolverine">Deadpool &amp; Wolverine</a></em> and the DCU igniter <em>Superman</em>!</p>
+<p>Great leaping buggaboos! This introduction is now over! Throw up the cape, slip on that cowl, and hop into the Tomatomobile: We ride for to the best superhero movies of all time!</p>
+<p>
+<div id="row-index-1" class="row countdown-item" style="padding-left: 10px;">
+	<div class="countdown-index-resposive">#1</div>
+
+	<div class="col-sm-6 col-full-xs">
+		<a class="article_movie_poster" href="https://www.rottentomatoes.com/m/spider_man_into_the_spider_verse">
+			<div><img class='article_poster' src='https://resizing.flixster.com/COy49LZEc-nJrgZ8DuQpTMqw4ig=/fit-in/180x240/v2/https://resizing.flixster.com/_l50Ahm00b-RO9Ao2s3AyMjUWiU=/ems.cHJkLWVtcy1hc3NldHMvbW92aWVzL2ExYTZmMWFkLWViZWItNDNhMS1iZTEwLTcxODk1YTk3NWFhMy53ZWJw' alt='' style='border-color: #EEEEEE;border-style: solid;border-width: 1px'></div>
+		</a>
+	</div>
+	<div class="col-sm-18 col-full-xs countdown-item-content">
+		<div class="row countdown-item-title-bar">
+			<div class="col-sm-20 col-full-xs" style="height: 100%;" >
+				<div class="article_movie_title" style="float: left;">
+											<h2>
+							<a href="https://www.rottentomatoes.com/m/spider_man_into_the_spider_verse">Spider-Man: Into the Spider-Verse</a>
+
+															<span class='subtle start-year'>(2018)</span>
+														<br />
+															<img decoding="async" class="icon tiny" src="https://images.fandango.com/cms/assets/c6672520-d359-11ea-a15f-bdf29fa24277--certified-fresh.png" alt="Tomatometer icon" /> <span class="tMeterScore" style='margin-right: 10px;'>97%</span>
+																						<img decoding="async" class="icon tiny" src="https://images.fandango.com/cms/assets/d45a9e00-d359-11ea-b5d9-dd031ef2e6cb--upright.png" alt="Popcornmeter icon" /> <span class="tMeterScore" style='margin-right: 10px;'>94%</span>
+													</h2>
+									</div>
+			</div>
+			<div class="col-sm-4 col-full-xs" style="height: 100%;">
+				<div class="countdown-index">#1</div>
+			</div>
+		</div>
+		<div class="row countdown-item-details">
+			<div class="col-sm-24">
+				
+									<div class="info critics-consensus">
+						<span class="descriptor">Critics Consensus:</span> <em>Spider-Man: Into the Spider-Verse</em> matches bold storytelling with striking animation for a purely enjoyable adventure with heart, humor, and plenty of superhero action.					</div>
+				
+									<div class="info synopsis">
+						<span class="descriptor">Synopsis:</span> Bitten by a radioactive spider in the subway, Brooklyn teenager Miles Morales suddenly develops mysterious powers that transform him into						<a class="" target="_top" data-pageheader=""  href="https://www.rottentomatoes.com/m/spider_man_into_the_spider_verse"> [More]</a>
+
+					</div>
+				
+				
+<div class="info cast">
+	<span class="descriptor">
+		Starring:	</span>
+			<a class="" href="//www.rottentomatoes.com/celebrity/shameik_moore">Shameik Moore</a>, 				<a class="" href="//www.rottentomatoes.com/celebrity/jake_johnson_2">Jake Johnson</a>, 				<a class="" href="//www.rottentomatoes.com/celebrity/hailee_steinfeld">Hailee Steinfeld</a>, 				<a class="" href="//www.rottentomatoes.com/celebrity/mahershala_ali">Mahershala Ali</a>		</div>
+				
+<div class="info director">
+	<span class="descriptor">
+		Directed By:	</span>
+			<a class="" href="//www.rottentomatoes.com/celebrity/bob_persichetti">Bob Persichetti</a>, 				<a class="" href="//www.rottentomatoes.com/celebrity/peter_ramsey">Peter Ramsey</a>, 				<a class="" href="//www.rottentomatoes.com/celebrity/rodney_rothman">Rodney Rothman</a>		</div>			</div>
+		</div>
+	</div>
+</div><br />
+
+<div id="row-index-2" class="row countdown-item" style="padding-left: 10px;">
+	<div class="countdown-index-resposive">#2</div>
+
+	<div class="col-sm-6 col-full-xs">
+		<a class="article_movie_poster" href="https://www.rottentomatoes.com/m/the_incredibles">
+			<div><img class='article_poster' src='https://resizing.flixster.com/Lxn6mENxy-k01FLEhimb1fPxpQI=/fit-in/180x240/v2/https://resizing.flixster.com/-XZAfHZM39UwaGJIFWKAE8fS0ak=/v3/t/assets/p35032_p_v8_at.jpg' alt='' style='border-color: #EEEEEE;border-style: solid;border-width: 1px'></div>
+		</a>
+	</div>
+	<div class="col-sm-18 col-full-xs countdown-item-content">
+		<div class="row countdown-item-title-bar">
+			<div class="col-sm-20 col-full-xs" style="height: 100%;" >
+				<div class="article_movie_title" style="float: left;">
+											<h2>
+							<a href="https://www.rottentomatoes.com/m/the_incredibles">The Incredibles</a>
+
+															<span class='subtle start-year'>(2004)</span>
+														<br />
+															<img decoding="async" class="icon tiny" src="https://images.fandango.com/cms/assets/c6672520-d359-11ea-a15f-bdf29fa24277--certified-fresh.png" alt="Tomatometer icon" /> <span class="tMeterScore" style='margin-right: 10px;'>97%</span>
+																						<img decoding="async" class="icon tiny" src="https://images.fandango.com/cms/assets/d45a9e00-d359-11ea-b5d9-dd031ef2e6cb--upright.png" alt="Popcornmeter icon" /> <span class="tMeterScore" style='margin-right: 10px;'>75%</span>
+													</h2>
+									</div>
+			</div>
+			<div class="col-sm-4 col-full-xs" style="height: 100%;">
+				<div class="countdown-index">#2</div>
+			</div>
+		</div>
+		<div class="row countdown-item-details">
+			<div class="col-sm-24">
+				
+									<div class="info critics-consensus">
+						<span class="descriptor">Critics Consensus:</span> Bringing loads of wit and tons of fun to the animated superhero genre, <em>The Incredibles</em> easily lives up to its name.					</div>
+				
+									<div class="info synopsis">
+						<span class="descriptor">Synopsis:</span> In this lauded Pixar animated film, married superheroes Mr. Incredible (Craig T. Nelson) and Elastigirl (Holly Hunter) are forced to						<a class="" target="_top" data-pageheader=""  href="https://www.rottentomatoes.com/m/the_incredibles"> [More]</a>
+
+					</div>
+				
+				
+<div class="info cast">
+	<span class="descriptor">
+		Starring:	</span>
+			<a class="" href="//www.rottentomatoes.com/celebrity/craig_t_nelson">Craig T. Nelson</a>, 				<a class="" href="//www.rottentomatoes.com/celebrity/holly_hunter">Holly Hunter</a>, 				<a class="" href="//www.rottentomatoes.com/celebrity/samuel_l_jackson">Samuel L. Jackson</a>, 				<a class="" href="//www.rottentomatoes.com/celebrity/dennis_pepper">Jason Lee</a>		</div>
+				
+<div class="info director">
+	<span class="descriptor">
+		Directed By:	</span>
+			<a class="" href="//www.rottentomatoes.com/celebrity/brad_bird">Brad Bird</a>		</div>			</div>
+		</div>
+	</div>
+</div><br />
+
+<div id="row-index-3" class="row countdown-item" style="padding-left: 10px;">
+	<div class="countdown-index-resposive">#3</div>
+
+	<div class="col-sm-6 col-full-xs">
+		<a class="article_movie_poster" href="https://www.rottentomatoes.com/m/black_panther_2018">
+			<div><img class='article_poster' src='https://resizing.flixster.com/AFkjaz-8Uf7x02u48NfpAXa2mA4=/fit-in/180x240/v2/https://resizing.flixster.com/KBlur3LaA-y1U1yt6_Y2uO25ozA=/ems.cHJkLWVtcy1hc3NldHMvbW92aWVzLzMxOGI1YzBhLWMyMjEtNGUxMS1iM2Q0LWQ4OGMyYzQyZjQyYS53ZWJw' alt='' style='border-color: #EEEEEE;border-style: solid;border-width: 1px'></div>
+		</a>
+	</div>
+	<div class="col-sm-18 col-full-xs countdown-item-content">
+		<div class="row countdown-item-title-bar">
+			<div class="col-sm-20 col-full-xs" style="height: 100%;" >
+				<div class="article_movie_title" style="float: left;">
+											<h2>
+							<a href="https://www.rottentomatoes.com/m/black_panther_2018">Black Panther</a>
+
+															<span class='subtle start-year'>(2018)</span>
+														<br />
+															<img decoding="async" class="icon tiny" src="https://images.fandango.com/cms/assets/c6672520-d359-11ea-a15f-bdf29fa24277--certified-fresh.png" alt="Tomatometer icon" /> <span class="tMeterScore" style='margin-right: 10px;'>96%</span>
+																						<img decoding="async" class="icon tiny" src="https://images.fandango.com/cms/assets/d45a9e00-d359-11ea-b5d9-dd031ef2e6cb--upright.png" alt="Popcornmeter icon" /> <span class="tMeterScore" style='margin-right: 10px;'>79%</span>
+													</h2>
+									</div>
+			</div>
+			<div class="col-sm-4 col-full-xs" style="height: 100%;">
+				<div class="countdown-index">#3</div>
+			</div>
+		</div>
+		<div class="row countdown-item-details">
+			<div class="col-sm-24">
+				
+									<div class="info critics-consensus">
+						<span class="descriptor">Critics Consensus:</span> <em>Black Panther</em> elevates superhero cinema to thrilling new heights while telling one of the MCU's most absorbing stories -- and introducing some of its most fully realized characters.					</div>
+				
+									<div class="info synopsis">
+						<span class="descriptor">Synopsis:</span> After the death of his father, T'Challa returns home to the African nation of Wakanda to take his rightful place						<a class="" target="_top" data-pageheader=""  href="https://www.rottentomatoes.com/m/black_panther_2018"> [More]</a>
+
+					</div>
+				
+				
+<div class="info cast">
+	<span class="descriptor">
+		Starring:	</span>
+			<a class="" href="//www.rottentomatoes.com/celebrity/chadwick_boseman">Chadwick Boseman</a>, 				<a class="" href="//www.rottentomatoes.com/celebrity/michael_b_jordan">Michael B. Jordan</a>, 				<a class="" href="//www.rottentomatoes.com/celebrity/lupita_nyongo">Lupita Nyong&#039;o</a>, 				<a class="" href="//www.rottentomatoes.com/celebrity/danai-gurira">Danai Gurira</a>		</div>
+				
+<div class="info director">
+	<span class="descriptor">
+		Directed By:	</span>
+			<a class="" href="//www.rottentomatoes.com/celebrity/ryan_coogler">Ryan Coogler</a>		</div>			</div>
+		</div>
+	</div>
+</div><br />
+
+<div id="row-index-4" class="row countdown-item" style="padding-left: 10px;">
+	<div class="countdown-index-resposive">#4</div>
+
+	<div class="col-sm-6 col-full-xs">
+		<a class="article_movie_poster" href="https://www.rottentomatoes.com/m/spider_man_across_the_spider_verse">
+			<div><img class='article_poster' src='https://resizing.flixster.com/aoBS3Yhq4CG_B310WPfM31U9tj8=/fit-in/180x240/v2/https://resizing.flixster.com/abVYM20-_8hBgvl4VJTC_28L0Tw=/ems.cHJkLWVtcy1hc3NldHMvbW92aWVzL2YzNTQxM2E4LTUzYmYtNGI3MS1iM2FmLWJjYTFmOWZjMDYzNS5qcGc=' alt='' style='border-color: #EEEEEE;border-style: solid;border-width: 1px'></div>
+		</a>
+	</div>
+	<div class="col-sm-18 col-full-xs countdown-item-content">
+		<div class="row countdown-item-title-bar">
+			<div class="col-sm-20 col-full-xs" style="height: 100%;" >
+				<div class="article_movie_title" style="float: left;">
+											<h2>
+							<a href="https://www.rottentomatoes.com/m/spider_man_across_the_spider_verse">Spider-Man: Across the Spider-Verse</a>
+
+															<span class='subtle start-year'>(2023)</span>
+														<br />
+															<img decoding="async" class="icon tiny" src="https://images.fandango.com/cms/assets/c6672520-d359-11ea-a15f-bdf29fa24277--certified-fresh.png" alt="Tomatometer icon" /> <span class="tMeterScore" style='margin-right: 10px;'>95%</span>
+																						<img decoding="async" class="icon tiny" src="https://images.fandango.com/cms/assets/3478b900-7056-11ef-ab6e-6bc4e16d49df--certified-hot.png" alt="Popcornmeter icon" /> <span class="tMeterScore" style='margin-right: 10px;'>94%</span>
+													</h2>
+									</div>
+			</div>
+			<div class="col-sm-4 col-full-xs" style="height: 100%;">
+				<div class="countdown-index">#4</div>
+			</div>
+		</div>
+		<div class="row countdown-item-details">
+			<div class="col-sm-24">
+				
+									<div class="info critics-consensus">
+						<span class="descriptor">Critics Consensus:</span> Just as visually dazzling and action-packed as its predecessor, <em>Spider-Man: Across the Spider-Verse</em> thrills from start to cliffhanger conclusion.					</div>
+				
+									<div class="info synopsis">
+						<span class="descriptor">Synopsis:</span> Miles Morales returns for the next chapter of the Oscar®-winning Spider-Verse saga, an epic adventure that will transport Brooklyn's full-time,						<a class="" target="_top" data-pageheader=""  href="https://www.rottentomatoes.com/m/spider_man_across_the_spider_verse"> [More]</a>
+
+					</div>
+				
+				
+<div class="info cast">
+	<span class="descriptor">
+		Starring:	</span>
+			<a class="" href="//www.rottentomatoes.com/celebrity/shameik_moore">Shameik Moore</a>, 				<a class="" href="//www.rottentomatoes.com/celebrity/hailee_steinfeld">Hailee Steinfeld</a>, 				<a class="" href="//www.rottentomatoes.com/celebrity/oscar-isaac">Oscar Isaac</a>, 				<a class="" href="//www.rottentomatoes.com/celebrity/jake_johnson_2">Jake Johnson</a>		</div>
+				
+<div class="info director">
+	<span class="descriptor">
+		Directed By:	</span>
+			<a class="" href="//www.rottentomatoes.com/celebrity/joaquim_dos_santos">Joaquim Dos Santos</a>, 				<a class="" href="//www.rottentomatoes.com/celebrity/kemp_powers">Kemp Powers</a>, 				<a class="" href="//www.rottentomatoes.com/celebrity/justin_k_thompson">Justin K. Thompson</a>		</div>			</div>
+		</div>
+	</div>
+</div><br />
+
+<div id="row-index-5" class="row countdown-item" style="padding-left: 10px;">
+	<div class="countdown-index-resposive">#5</div>
+
+	<div class="col-sm-6 col-full-xs">
+		<a class="article_movie_poster" href="https://www.rottentomatoes.com/m/teenage_mutant_ninja_turtles_mutant_mayhem">
+			<div><img class='article_poster' src='https://resizing.flixster.com/dW08y7uzqMU5XDWFOhUGPxUDOkw=/fit-in/180x240/v2/https://resizing.flixster.com/IXDTZRqseLxH9CVg8wuApMgEJpc=/ems.cHJkLWVtcy1hc3NldHMvbW92aWVzLzljYWQwYmM5LWVlMjgtNDQ5OC1iM2ViLTg4Y2MxM2U0YWFmZS5qcGc=' alt='' style='border-color: #EEEEEE;border-style: solid;border-width: 1px'></div>
+		</a>
+	</div>
+	<div class="col-sm-18 col-full-xs countdown-item-content">
+		<div class="row countdown-item-title-bar">
+			<div class="col-sm-20 col-full-xs" style="height: 100%;" >
+				<div class="article_movie_title" style="float: left;">
+											<h2>
+							<a href="https://www.rottentomatoes.com/m/teenage_mutant_ninja_turtles_mutant_mayhem">Teenage Mutant Ninja Turtles: Mutant Mayhem</a>
+
+															<span class='subtle start-year'>(2023)</span>
+														<br />
+															<img decoding="async" class="icon tiny" src="https://images.fandango.com/cms/assets/c6672520-d359-11ea-a15f-bdf29fa24277--certified-fresh.png" alt="Tomatometer icon" /> <span class="tMeterScore" style='margin-right: 10px;'>95%</span>
+																						<img decoding="async" class="icon tiny" src="https://images.fandango.com/cms/assets/3478b900-7056-11ef-ab6e-6bc4e16d49df--certified-hot.png" alt="Popcornmeter icon" /> <span class="tMeterScore" style='margin-right: 10px;'>90%</span>
+													</h2>
+									</div>
+			</div>
+			<div class="col-sm-4 col-full-xs" style="height: 100%;">
+				<div class="countdown-index">#5</div>
+			</div>
+		</div>
+		<div class="row countdown-item-details">
+			<div class="col-sm-24">
+				
+									<div class="info critics-consensus">
+						<span class="descriptor">Critics Consensus:</span> With its unique visual style and a story that captures the essence of the franchise's appeal, <em>Teenage Mutant Ninja Turtles: Mutant Mayhem</em> is an animated treat for the whole family.					</div>
+				
+									<div class="info synopsis">
+						<span class="descriptor">Synopsis:</span> After years of being sheltered from the human world, the Turtle brothers set out to win the hearts of New						<a class="" target="_top" data-pageheader=""  href="https://www.rottentomatoes.com/m/teenage_mutant_ninja_turtles_mutant_mayhem"> [More]</a>
+
+					</div>
+				
+				
+<div class="info cast">
+	<span class="descriptor">
+		Starring:	</span>
+			<a class="" href="//www.rottentomatoes.com/celebrity/micah_abbey">Micah Abbey</a>, 				<a class="" href="//www.rottentomatoes.com/celebrity/shamon_brown_jr">Shamon Brown Jr.</a>, 				<a class="" href="//www.rottentomatoes.com/celebrity/hannibal_buress">Hannibal Buress</a>, 				<a class="" href="//www.rottentomatoes.com/celebrity/rose_byrne">Rose Byrne</a>		</div>
+				
+<div class="info director">
+	<span class="descriptor">
+		Directed By:	</span>
+			<a class="" href="//www.rottentomatoes.com/celebrity/jeff_rowe_2">Jeff Rowe</a>		</div>			</div>
+		</div>
+	</div>
+</div><br />
+
+<div id="row-index-6" class="row countdown-item" style="padding-left: 10px;">
+	<div class="countdown-index-resposive">#6</div>
+
+	<div class="col-sm-6 col-full-xs">
+		<a class="article_movie_poster" href="https://www.rottentomatoes.com/m/avengers_endgame">
+			<div><img class='article_poster' src='https://resizing.flixster.com/PUYKuy0g9kGg9q4iPoUQY6dY_a4=/fit-in/180x240/v2/https://resizing.flixster.com/fC7nU6iTRQk02tS0SDS1ylx-G34=/ems.cHJkLWVtcy1hc3NldHMvbW92aWVzL2QxZjE5ZDgzLTRiY2MtNDFkYS04NWQ4LTRkYzc1ZTAwNWE2NC53ZWJw' alt='' style='border-color: #EEEEEE;border-style: solid;border-width: 1px'></div>
+		</a>
+	</div>
+	<div class="col-sm-18 col-full-xs countdown-item-content">
+		<div class="row countdown-item-title-bar">
+			<div class="col-sm-20 col-full-xs" style="height: 100%;" >
+				<div class="article_movie_title" style="float: left;">
+											<h2>
+							<a href="https://www.rottentomatoes.com/m/avengers_endgame">Avengers: Endgame</a>
+
+															<span class='subtle start-year'>(2019)</span>
+														<br />
+															<img decoding="async" class="icon tiny" src="https://images.fandango.com/cms/assets/c6672520-d359-11ea-a15f-bdf29fa24277--certified-fresh.png" alt="Tomatometer icon" /> <span class="tMeterScore" style='margin-right: 10px;'>94%</span>
+																						<img decoding="async" class="icon tiny" src="https://images.fandango.com/cms/assets/d45a9e00-d359-11ea-b5d9-dd031ef2e6cb--upright.png" alt="Popcornmeter icon" /> <span class="tMeterScore" style='margin-right: 10px;'>90%</span>
+													</h2>
+									</div>
+			</div>
+			<div class="col-sm-4 col-full-xs" style="height: 100%;">
+				<div class="countdown-index">#6</div>
+			</div>
+		</div>
+		<div class="row countdown-item-details">
+			<div class="col-sm-24">
+				
+									<div class="info critics-consensus">
+						<span class="descriptor">Critics Consensus:</span> Exciting, entertaining, and emotionally impactful, <em>Avengers: Endgame</em> does whatever it takes to deliver a satisfying finale to Marvel's epic Infinity Saga.					</div>
+				
+									<div class="info synopsis">
+						<span class="descriptor">Synopsis:</span> The fourth installment in the Avengers saga is the culmination of 22 interconnected Marvel films and the climax of a						<a class="" target="_top" data-pageheader=""  href="https://www.rottentomatoes.com/m/avengers_endgame"> [More]</a>
+
+					</div>
+				
+				
+<div class="info cast">
+	<span class="descriptor">
+		Starring:	</span>
+			<a class="" href="//www.rottentomatoes.com/celebrity/robert_downey_jr">Robert Downey Jr.</a>, 				<a class="" href="//www.rottentomatoes.com/celebrity/chris_evans">Chris Evans</a>, 				<a class="" href="//www.rottentomatoes.com/celebrity/mark_ruffalo">Mark Ruffalo</a>, 				<a class="" href="//www.rottentomatoes.com/celebrity/chris-hemsworth">Chris Hemsworth</a>		</div>
+				
+<div class="info director">
+	<span class="descriptor">
+		Directed By:	</span>
+			<a class="" href="//www.rottentomatoes.com/celebrity/anthony_russo">Anthony Russo</a>, 				<a class="" href="//www.rottentomatoes.com/celebrity/joseph_russo">Joe Russo</a>		</div>			</div>
+		</div>
+	</div>
+</div><br />
+
+<div id="row-index-7" class="row countdown-item" style="padding-left: 10px;">
+	<div class="countdown-index-resposive">#7</div>
+
+	<div class="col-sm-6 col-full-xs">
+		<a class="article_movie_poster" href="https://www.rottentomatoes.com/m/the_dark_knight">
+			<div><img class='article_poster' src='https://resizing.flixster.com/5ftl4iDlcy3_Ka2cqlzpjs6kv50=/fit-in/180x240/v2/https://resizing.flixster.com/Wg25mLoPWxjcxXzNyaSF4VGgGE4=/ems.cHJkLWVtcy1hc3NldHMvbW92aWVzL2ZiNjZiNWFkLWVhNzEtNDRhMC1iNGIwLTFmY2FkNzllNTJlMi5qcGc=' alt='' style='border-color: #EEEEEE;border-style: solid;border-width: 1px'></div>
+		</a>
+	</div>
+	<div class="col-sm-18 col-full-xs countdown-item-content">
+		<div class="row countdown-item-title-bar">
+			<div class="col-sm-20 col-full-xs" style="height: 100%;" >
+				<div class="article_movie_title" style="float: left;">
+											<h2>
+							<a href="https://www.rottentomatoes.com/m/the_dark_knight">The Dark Knight</a>
+
+															<span class='subtle start-year'>(2008)</span>
+														<br />
+															<img decoding="async" class="icon tiny" src="https://images.fandango.com/cms/assets/c6672520-d359-11ea-a15f-bdf29fa24277--certified-fresh.png" alt="Tomatometer icon" /> <span class="tMeterScore" style='margin-right: 10px;'>94%</span>
+																						<img decoding="async" class="icon tiny" src="https://images.fandango.com/cms/assets/d45a9e00-d359-11ea-b5d9-dd031ef2e6cb--upright.png" alt="Popcornmeter icon" /> <span class="tMeterScore" style='margin-right: 10px;'>94%</span>
+													</h2>
+									</div>
+			</div>
+			<div class="col-sm-4 col-full-xs" style="height: 100%;">
+				<div class="countdown-index">#7</div>
+			</div>
+		</div>
+		<div class="row countdown-item-details">
+			<div class="col-sm-24">
+				
+									<div class="info critics-consensus">
+						<span class="descriptor">Critics Consensus:</span> Dark, complex, and unforgettable, <em>The Dark Knight</em> succeeds not just as an entertaining comic book film, but as a richly thrilling crime saga.					</div>
+				
+									<div class="info synopsis">
+						<span class="descriptor">Synopsis:</span> With the help of allies Lt. Jim Gordon (Gary Oldman) and DA Harvey Dent (Aaron Eckhart), Batman (Christian Bale) has						<a class="" target="_top" data-pageheader=""  href="https://www.rottentomatoes.com/m/the_dark_knight"> [More]</a>
+
+					</div>
+				
+				
+<div class="info cast">
+	<span class="descriptor">
+		Starring:	</span>
+			<a class="" href="//www.rottentomatoes.com/celebrity/christian_bale">Christian Bale</a>, 				<a class="" href="//www.rottentomatoes.com/celebrity/heath_ledger">Heath Ledger</a>, 				<a class="" href="//www.rottentomatoes.com/celebrity/aaron_eckhart">Aaron Eckhart</a>, 				<a class="" href="//www.rottentomatoes.com/celebrity/michael_caine">Michael Caine</a>		</div>
+				
+<div class="info director">
+	<span class="descriptor">
+		Directed By:	</span>
+			<a class="" href="//www.rottentomatoes.com/celebrity/christopher_nolan">Christopher Nolan</a>		</div>			</div>
+		</div>
+	</div>
+</div><br />
+
+<div id="row-index-8" class="row countdown-item" style="padding-left: 10px;">
+	<div class="countdown-index-resposive">#8</div>
+
+	<div class="col-sm-6 col-full-xs">
+		<a class="article_movie_poster" href="https://www.rottentomatoes.com/m/iron_man">
+			<div><img class='article_poster' src='https://resizing.flixster.com/dsBcGJhic3chU8_zB9NsOJ2bU5E=/fit-in/180x240/v2/https://resizing.flixster.com/-XZAfHZM39UwaGJIFWKAE8fS0ak=/v3/t/assets/p170620_p_v13_ae.jpg' alt='' style='border-color: #EEEEEE;border-style: solid;border-width: 1px'></div>
+		</a>
+	</div>
+	<div class="col-sm-18 col-full-xs countdown-item-content">
+		<div class="row countdown-item-title-bar">
+			<div class="col-sm-20 col-full-xs" style="height: 100%;" >
+				<div class="article_movie_title" style="float: left;">
+											<h2>
+							<a href="https://www.rottentomatoes.com/m/iron_man">Iron Man</a>
+
+															<span class='subtle start-year'>(2008)</span>
+														<br />
+															<img decoding="async" class="icon tiny" src="https://images.fandango.com/cms/assets/c6672520-d359-11ea-a15f-bdf29fa24277--certified-fresh.png" alt="Tomatometer icon" /> <span class="tMeterScore" style='margin-right: 10px;'>94%</span>
+																						<img decoding="async" class="icon tiny" src="https://images.fandango.com/cms/assets/d45a9e00-d359-11ea-b5d9-dd031ef2e6cb--upright.png" alt="Popcornmeter icon" /> <span class="tMeterScore" style='margin-right: 10px;'>91%</span>
+													</h2>
+									</div>
+			</div>
+			<div class="col-sm-4 col-full-xs" style="height: 100%;">
+				<div class="countdown-index">#8</div>
+			</div>
+		</div>
+		<div class="row countdown-item-details">
+			<div class="col-sm-24">
+				
+									<div class="info critics-consensus">
+						<span class="descriptor">Critics Consensus:</span> Powered by Robert Downey Jr.'s vibrant charm, <em>Iron Man</em> turbo-charges the superhero genre with a deft intelligence and infectious sense of fun.					</div>
+				
+									<div class="info synopsis">
+						<span class="descriptor">Synopsis:</span> A billionaire industrialist and genius inventor, Tony Stark (Robert Downey Jr.), is conducting weapons tests overseas, but terrorists kidnap him						<a class="" target="_top" data-pageheader=""  href="https://www.rottentomatoes.com/m/iron_man"> [More]</a>
+
+					</div>
+				
+				
+<div class="info cast">
+	<span class="descriptor">
+		Starring:	</span>
+			<a class="" href="//www.rottentomatoes.com/celebrity/robert_downey_jr">Robert Downey Jr.</a>, 				<a class="" href="//www.rottentomatoes.com/celebrity/terrence_howard">Terrence Howard</a>, 				<a class="" href="//www.rottentomatoes.com/celebrity/gwyneth_paltrow">Gwyneth Paltrow</a>, 				<a class="" href="//www.rottentomatoes.com/celebrity/jeff_bridges">Jeff Bridges</a>		</div>
+				
+<div class="info director">
+	<span class="descriptor">
+		Directed By:	</span>
+			<a class="" href="//www.rottentomatoes.com/celebrity/jon_favreau_2">Jon Favreau</a>		</div>			</div>
+		</div>
+	</div>
+</div><br />
+
+<div id="row-index-9" class="row countdown-item" style="padding-left: 10px;">
+	<div class="countdown-index-resposive">#9</div>
+
+	<div class="col-sm-6 col-full-xs">
+		<a class="article_movie_poster" href="https://www.rottentomatoes.com/m/smoking_causes_coughing">
+			<div><img class='article_poster' src='https://resizing.flixster.com/ZqwZjbIGUBWp7vkxanaXZMwrePc=/fit-in/180x240/v2/https://resizing.flixster.com/AndvFX6yRk-GCySCi1pX8PboP78=/ems.cHJkLWVtcy1hc3NldHMvbW92aWVzLzgyNzIxNzhhLWYwZjctNDcxOS1hYjM0LWVkOGNmMTE0ZTMzMC5wbmc=' alt='' style='border-color: #EEEEEE;border-style: solid;border-width: 1px'></div>
+		</a>
+	</div>
+	<div class="col-sm-18 col-full-xs countdown-item-content">
+		<div class="row countdown-item-title-bar">
+			<div class="col-sm-20 col-full-xs" style="height: 100%;" >
+				<div class="article_movie_title" style="float: left;">
+											<h2>
+							<a href="https://www.rottentomatoes.com/m/smoking_causes_coughing">Smoking Causes Coughing</a>
+
+															<span class='subtle start-year'>(2022)</span>
+														<br />
+															<img decoding="async" class="icon tiny" src="https://images.fandango.com/cms/assets/c6672520-d359-11ea-a15f-bdf29fa24277--certified-fresh.png" alt="Tomatometer icon" /> <span class="tMeterScore" style='margin-right: 10px;'>94%</span>
+																						<img decoding="async" class="icon tiny" src="https://images.fandango.com/cms/assets/cf921970-d359-11ea-a15f-bdf29fa24277--spilled.png" alt="Popcornmeter icon" /> <span class="tMeterScore" style='margin-right: 10px;'>53%</span>
+													</h2>
+									</div>
+			</div>
+			<div class="col-sm-4 col-full-xs" style="height: 100%;">
+				<div class="countdown-index">#9</div>
+			</div>
+		</div>
+		<div class="row countdown-item-details">
+			<div class="col-sm-24">
+				
+									<div class="info critics-consensus">
+						<span class="descriptor">Critics Consensus:</span> Quentin Dupieux still isn't for everyone -- but if you're on his loopy wavelength, <em>Smoking Causes Coughing</em> causes laughter.					</div>
+				
+									<div class="info synopsis">
+						<span class="descriptor">Synopsis:</span> A wildly inventive new comedy from Quentin Dupieux (MANDIBLES, RUBBER), SMOKING CAUSES COUGHING follows the misadventures of a team of						<a class="" target="_top" data-pageheader=""  href="https://www.rottentomatoes.com/m/smoking_causes_coughing"> [More]</a>
+
+					</div>
+				
+				
+<div class="info cast">
+	<span class="descriptor">
+		Starring:	</span>
+			<a class="" href="//www.rottentomatoes.com/celebrity/gilles_lellouche">Gilles Lellouche</a>, 				<a class="" href="//www.rottentomatoes.com/celebrity/vincent_lacoste">Vincent Lacoste</a>, 				<a class="" href="//www.rottentomatoes.com/celebrity/anais_demoustier">Anaïs Demoustier</a>, 				<a class="" href="//www.rottentomatoes.com/celebrity/jean_pascal_zadi">Jean-Pascal Zadi</a>		</div>
+				
+<div class="info director">
+	<span class="descriptor">
+		Directed By:	</span>
+			<a class="" href="//www.rottentomatoes.com/celebrity/quentin_dupieux">Quentin Dupieux</a>		</div>			</div>
+		</div>
+	</div>
+</div><br />
+
+<div id="row-index-10" class="row countdown-item" style="padding-left: 10px;">
+	<div class="countdown-index-resposive">#10</div>
+
+	<div class="col-sm-6 col-full-xs">
+		<a class="article_movie_poster" href="https://www.rottentomatoes.com/m/logan_2017">
+			<div><img class='article_poster' src='https://resizing.flixster.com/ebEHNopwMNZ7SR78LoAuwzCNxBA=/fit-in/180x240/v2/https://resizing.flixster.com/51dPxdHRE4zztJs60xLy9RBKyro=/ems.cHJkLWVtcy1hc3NldHMvbW92aWVzLzU0MTMxZTVlLWRmZGYtNDk5Ni1hYjc0LWJkZGM4MGMxMDkyNC53ZWJw' alt='' style='border-color: #EEEEEE;border-style: solid;border-width: 1px'></div>
+		</a>
+	</div>
+	<div class="col-sm-18 col-full-xs countdown-item-content">
+		<div class="row countdown-item-title-bar">
+			<div class="col-sm-20 col-full-xs" style="height: 100%;" >
+				<div class="article_movie_title" style="float: left;">
+											<h2>
+							<a href="https://www.rottentomatoes.com/m/logan_2017">Logan</a>
+
+															<span class='subtle start-year'>(2017)</span>
+														<br />
+															<img decoding="async" class="icon tiny" src="https://images.fandango.com/cms/assets/c6672520-d359-11ea-a15f-bdf29fa24277--certified-fresh.png" alt="Tomatometer icon" /> <span class="tMeterScore" style='margin-right: 10px;'>93%</span>
+																						<img decoding="async" class="icon tiny" src="https://images.fandango.com/cms/assets/d45a9e00-d359-11ea-b5d9-dd031ef2e6cb--upright.png" alt="Popcornmeter icon" /> <span class="tMeterScore" style='margin-right: 10px;'>91%</span>
+													</h2>
+									</div>
+			</div>
+			<div class="col-sm-4 col-full-xs" style="height: 100%;">
+				<div class="countdown-index">#10</div>
+			</div>
+		</div>
+		<div class="row countdown-item-details">
+			<div class="col-sm-24">
+				
+									<div class="info critics-consensus">
+						<span class="descriptor">Critics Consensus:</span> Hugh Jackman makes the most of his final outing as Wolverine with a gritty, nuanced performance in a violent but surprisingly thoughtful superhero action film that defies genre conventions.					</div>
+				
+									<div class="info synopsis">
+						<span class="descriptor">Synopsis:</span> In the near future, a weary Logan (Hugh Jackman) cares for an ailing Professor X (Patrick Stewart) at a remote						<a class="" target="_top" data-pageheader=""  href="https://www.rottentomatoes.com/m/logan_2017"> [More]</a>
+
+					</div>
+				
+				
+<div class="info cast">
+	<span class="descriptor">
+		Starring:	</span>
+			<a class="" href="//www.rottentomatoes.com/celebrity/hugh_jackman">Hugh Jackman</a>, 				<a class="" href="//www.rottentomatoes.com/celebrity/patrick_stewart">Patrick Stewart</a>, 				<a class="" href="//www.rottentomatoes.com/celebrity/dafne_keen">Dafne Keen</a>, 				<a class="" href="//www.rottentomatoes.com/celebrity/richard_grant">Richard E. Grant</a>		</div>
+				
+<div class="info director">
+	<span class="descriptor">
+		Directed By:	</span>
+			<a class="" href="//www.rottentomatoes.com/celebrity/james_mangold">James Mangold</a>		</div>			</div>
+		</div>
+	</div>
+</div><br />
+
+<div id="row-index-11" class="row countdown-item" style="padding-left: 10px;">
+	<div class="countdown-index-resposive">#11</div>
+
+	<div class="col-sm-6 col-full-xs">
+		<a class="article_movie_poster" href="https://www.rottentomatoes.com/m/wonder_woman_2017">
+			<div><img class='article_poster' src='https://resizing.flixster.com/OjnEMuNtrSmg3s5x7tEgKU0J_yU=/fit-in/180x240/v2/https://resizing.flixster.com/oV9ExzAFUOnlqgtCAM0-aL2fXUs=/ems.cHJkLWVtcy1hc3NldHMvbW92aWVzLzg5ZDA3ZGQ4LTE2NDUtNDUyNi04NTZjLTk3Y2MyZTAyODAyOS53ZWJw' alt='' style='border-color: #EEEEEE;border-style: solid;border-width: 1px'></div>
+		</a>
+	</div>
+	<div class="col-sm-18 col-full-xs countdown-item-content">
+		<div class="row countdown-item-title-bar">
+			<div class="col-sm-20 col-full-xs" style="height: 100%;" >
+				<div class="article_movie_title" style="float: left;">
+											<h2>
+							<a href="https://www.rottentomatoes.com/m/wonder_woman_2017">Wonder Woman</a>
+
+															<span class='subtle start-year'>(2017)</span>
+														<br />
+															<img decoding="async" class="icon tiny" src="https://images.fandango.com/cms/assets/c6672520-d359-11ea-a15f-bdf29fa24277--certified-fresh.png" alt="Tomatometer icon" /> <span class="tMeterScore" style='margin-right: 10px;'>93%</span>
+																						<img decoding="async" class="icon tiny" src="https://images.fandango.com/cms/assets/d45a9e00-d359-11ea-b5d9-dd031ef2e6cb--upright.png" alt="Popcornmeter icon" /> <span class="tMeterScore" style='margin-right: 10px;'>83%</span>
+													</h2>
+									</div>
+			</div>
+			<div class="col-sm-4 col-full-xs" style="height: 100%;">
+				<div class="countdown-index">#11</div>
+			</div>
+		</div>
+		<div class="row countdown-item-details">
+			<div class="col-sm-24">
+				
+									<div class="info critics-consensus">
+						<span class="descriptor">Critics Consensus:</span> Thrilling, earnest, and buoyed by Gal Gadot's charismatic performance, Wonder Woman succeeds in spectacular fashion.					</div>
+				
+									<div class="info synopsis">
+						<span class="descriptor">Synopsis:</span> Before she was Wonder Woman (Gal Gadot), she was Diana, princess of the Amazons, trained to be an unconquerable warrior.						<a class="" target="_top" data-pageheader=""  href="https://www.rottentomatoes.com/m/wonder_woman_2017"> [More]</a>
+
+					</div>
+				
+				
+<div class="info cast">
+	<span class="descriptor">
+		Starring:	</span>
+			<a class="" href="//www.rottentomatoes.com/celebrity/gal-gadot">Gal Gadot</a>, 				<a class="" href="//www.rottentomatoes.com/celebrity/christopher_pine">Chris Pine</a>, 				<a class="" href="//www.rottentomatoes.com/celebrity/connie_nielsen">Connie Nielsen</a>, 				<a class="" href="//www.rottentomatoes.com/celebrity/robin_wright">Robin Wright</a>		</div>
+				
+<div class="info director">
+	<span class="descriptor">
+		Directed By:	</span>
+			<a class="" href="//www.rottentomatoes.com/celebrity/patty_jenkins">Patty Jenkins</a>		</div>			</div>
+		</div>
+	</div>
+</div><br />
+
+<div id="row-index-12" class="row countdown-item" style="padding-left: 10px;">
+	<div class="countdown-index-resposive">#12</div>
+
+	<div class="col-sm-6 col-full-xs">
+		<a class="article_movie_poster" href="https://www.rottentomatoes.com/m/thor_ragnarok_2017">
+			<div><img class='article_poster' src='https://resizing.flixster.com/zGhlIoszlztLOr8InC6FLfICXOw=/fit-in/180x240/v2/https://resizing.flixster.com/cfMzccfl2JCRfmwdK2cCVqBIAlc=/ems.cHJkLWVtcy1hc3NldHMvbW92aWVzLzI0NDdkYmJhLTY2MmEtNDY5My04MzMzLTFjMzZhYmM4MDkzZC53ZWJw' alt='' style='border-color: #EEEEEE;border-style: solid;border-width: 1px'></div>
+		</a>
+	</div>
+	<div class="col-sm-18 col-full-xs countdown-item-content">
+		<div class="row countdown-item-title-bar">
+			<div class="col-sm-20 col-full-xs" style="height: 100%;" >
+				<div class="article_movie_title" style="float: left;">
+											<h2>
+							<a href="https://www.rottentomatoes.com/m/thor_ragnarok_2017">Thor: Ragnarok</a>
+
+															<span class='subtle start-year'>(2017)</span>
+														<br />
+															<img decoding="async" class="icon tiny" src="https://images.fandango.com/cms/assets/c6672520-d359-11ea-a15f-bdf29fa24277--certified-fresh.png" alt="Tomatometer icon" /> <span class="tMeterScore" style='margin-right: 10px;'>93%</span>
+																						<img decoding="async" class="icon tiny" src="https://images.fandango.com/cms/assets/d45a9e00-d359-11ea-b5d9-dd031ef2e6cb--upright.png" alt="Popcornmeter icon" /> <span class="tMeterScore" style='margin-right: 10px;'>87%</span>
+													</h2>
+									</div>
+			</div>
+			<div class="col-sm-4 col-full-xs" style="height: 100%;">
+				<div class="countdown-index">#12</div>
+			</div>
+		</div>
+		<div class="row countdown-item-details">
+			<div class="col-sm-24">
+				
+									<div class="info critics-consensus">
+						<span class="descriptor">Critics Consensus:</span> Exciting, funny, and above all fun, <em>Thor: Ragnarok</em> is a colorful cosmic adventure that sets a new standard for its franchise -- and the rest of the Marvel Cinematic Universe.					</div>
+				
+									<div class="info synopsis">
+						<span class="descriptor">Synopsis:</span> Imprisoned on the other side of the universe, the mighty Thor finds himself in a deadly gladiatorial contest that pits						<a class="" target="_top" data-pageheader=""  href="https://www.rottentomatoes.com/m/thor_ragnarok_2017"> [More]</a>
+
+					</div>
+				
+				
+<div class="info cast">
+	<span class="descriptor">
+		Starring:	</span>
+			<a class="" href="//www.rottentomatoes.com/celebrity/chris-hemsworth">Chris Hemsworth</a>, 				<a class="" href="//www.rottentomatoes.com/celebrity/tom-hiddleston">Tom Hiddleston</a>, 				<a class="" href="//www.rottentomatoes.com/celebrity/cate_blanchett">Cate Blanchett</a>, 				<a class="" href="//www.rottentomatoes.com/celebrity/idris_elba">Idris Elba</a>		</div>
+				
+<div class="info director">
+	<span class="descriptor">
+		Directed By:	</span>
+			<a class="" href="//www.rottentomatoes.com/celebrity/taika_waititi">Taika Waititi</a>		</div>			</div>
+		</div>
+	</div>
+</div><br />
+
+<div id="row-index-13" class="row countdown-item" style="padding-left: 10px;">
+	<div class="countdown-index-resposive">#13</div>
+
+	<div class="col-sm-6 col-full-xs">
+		<a class="article_movie_poster" href="https://www.rottentomatoes.com/m/spider_man_no_way_home">
+			<div><img class='article_poster' src='https://resizing.flixster.com/ocv7hmFMoAI1MJN3OU_uSSQ6-0k=/fit-in/180x240/v2/https://resizing.flixster.com/8PNiwC2bpe9OecfYZSOVkvYC5vk=/ems.cHJkLWVtcy1hc3NldHMvbW92aWVzL2U5NGM0Y2Q1LTAyYTItNGFjNC1hNWZhLWMzYjJjOTdjMTFhOS5qcGc=' alt='' style='border-color: #EEEEEE;border-style: solid;border-width: 1px'></div>
+		</a>
+	</div>
+	<div class="col-sm-18 col-full-xs countdown-item-content">
+		<div class="row countdown-item-title-bar">
+			<div class="col-sm-20 col-full-xs" style="height: 100%;" >
+				<div class="article_movie_title" style="float: left;">
+											<h2>
+							<a href="https://www.rottentomatoes.com/m/spider_man_no_way_home">Spider-Man: No Way Home</a>
+
+															<span class='subtle start-year'>(2021)</span>
+														<br />
+															<img decoding="async" class="icon tiny" src="https://images.fandango.com/cms/assets/c6672520-d359-11ea-a15f-bdf29fa24277--certified-fresh.png" alt="Tomatometer icon" /> <span class="tMeterScore" style='margin-right: 10px;'>93%</span>
+																						<img decoding="async" class="icon tiny" src="https://images.fandango.com/cms/assets/3478b900-7056-11ef-ab6e-6bc4e16d49df--certified-hot.png" alt="Popcornmeter icon" /> <span class="tMeterScore" style='margin-right: 10px;'>97%</span>
+													</h2>
+									</div>
+			</div>
+			<div class="col-sm-4 col-full-xs" style="height: 100%;">
+				<div class="countdown-index">#13</div>
+			</div>
+		</div>
+		<div class="row countdown-item-details">
+			<div class="col-sm-24">
+				
+									<div class="info critics-consensus">
+						<span class="descriptor">Critics Consensus:</span> A bigger, bolder <em>Spider-Man</em> sequel, <em>No Way Home</em> expands the franchise's scope and stakes without losing sight of its humor and heart.					</div>
+				
+									<div class="info synopsis">
+						<span class="descriptor">Synopsis:</span> For the first time in the cinematic history of Spider-Man, our friendly neighborhood hero's identity is revealed, bringing his Super						<a class="" target="_top" data-pageheader=""  href="https://www.rottentomatoes.com/m/spider_man_no_way_home"> [More]</a>
+
+					</div>
+				
+				
+<div class="info cast">
+	<span class="descriptor">
+		Starring:	</span>
+			<a class="" href="//www.rottentomatoes.com/celebrity/tom_holland">Tom Holland</a>, 				<a class="" href="//www.rottentomatoes.com/celebrity/zendaya">Zendaya</a>, 				<a class="" href="//www.rottentomatoes.com/celebrity/benedict_cumberbatch">Benedict Cumberbatch</a>, 				<a class="" href="//www.rottentomatoes.com/celebrity/jacob_batalon">Jacob Batalon</a>		</div>
+				
+<div class="info director">
+	<span class="descriptor">
+		Directed By:	</span>
+			<a class="" href="//www.rottentomatoes.com/celebrity/jon_watts">Jon Watts</a>		</div>			</div>
+		</div>
+	</div>
+</div><br />
+
+<div id="row-index-14" class="row countdown-item" style="padding-left: 10px;">
+	<div class="countdown-index-resposive">#14</div>
+
+	<div class="col-sm-6 col-full-xs">
+		<a class="article_movie_poster" href="https://www.rottentomatoes.com/m/incredibles_2">
+			<div><img class='article_poster' src='https://resizing.flixster.com/Y4PbJxpdWMH8mYZRF0Zat1y1EHs=/fit-in/180x240/v2/https://resizing.flixster.com/JM_pdN4TAfPp5l6KlDDC15hfaMQ=/ems.cHJkLWVtcy1hc3NldHMvbW92aWVzLzdiZDJmN2M0LWNjYTQtNDIxMy1iNTQ3LTBjMTJkMjhlZWYwOS53ZWJw' alt='' style='border-color: #EEEEEE;border-style: solid;border-width: 1px'></div>
+		</a>
+	</div>
+	<div class="col-sm-18 col-full-xs countdown-item-content">
+		<div class="row countdown-item-title-bar">
+			<div class="col-sm-20 col-full-xs" style="height: 100%;" >
+				<div class="article_movie_title" style="float: left;">
+											<h2>
+							<a href="https://www.rottentomatoes.com/m/incredibles_2">Incredibles 2</a>
+
+															<span class='subtle start-year'>(2018)</span>
+														<br />
+															<img decoding="async" class="icon tiny" src="https://images.fandango.com/cms/assets/c6672520-d359-11ea-a15f-bdf29fa24277--certified-fresh.png" alt="Tomatometer icon" /> <span class="tMeterScore" style='margin-right: 10px;'>93%</span>
+																						<img decoding="async" class="icon tiny" src="https://images.fandango.com/cms/assets/d45a9e00-d359-11ea-b5d9-dd031ef2e6cb--upright.png" alt="Popcornmeter icon" /> <span class="tMeterScore" style='margin-right: 10px;'>84%</span>
+													</h2>
+									</div>
+			</div>
+			<div class="col-sm-4 col-full-xs" style="height: 100%;">
+				<div class="countdown-index">#14</div>
+			</div>
+		</div>
+		<div class="row countdown-item-details">
+			<div class="col-sm-24">
+				
+									<div class="info critics-consensus">
+						<span class="descriptor">Critics Consensus:</span> <em>Incredibles 2</em> reunites Pixar's family crimefighting team for a long-awaited follow-up that may not quite live up to the original, but comes close enough to earn its name.					</div>
+				
+									<div class="info synopsis">
+						<span class="descriptor">Synopsis:</span> Telecommunications guru Winston Deavor enlists Elastigirl to fight crime and make the public fall in love with superheroes once again.						<a class="" target="_top" data-pageheader=""  href="https://www.rottentomatoes.com/m/incredibles_2"> [More]</a>
+
+					</div>
+				
+				
+<div class="info cast">
+	<span class="descriptor">
+		Starring:	</span>
+			<a class="" href="//www.rottentomatoes.com/celebrity/craig_t_nelson">Craig T. Nelson</a>, 				<a class="" href="//www.rottentomatoes.com/celebrity/holly_hunter">Holly Hunter</a>, 				<a class="" href="//www.rottentomatoes.com/celebrity/sarah-vowell">Sarah Vowell</a>, 				<a class="" href="//www.rottentomatoes.com/celebrity/huck_milner">Huck Milner</a>		</div>
+				
+<div class="info director">
+	<span class="descriptor">
+		Directed By:	</span>
+			<a class="" href="//www.rottentomatoes.com/celebrity/brad_bird">Brad Bird</a>		</div>			</div>
+		</div>
+	</div>
+</div><br />
+
+<div id="row-index-15" class="row countdown-item" style="padding-left: 10px;">
+	<div class="countdown-index-resposive">#15</div>
+
+	<div class="col-sm-6 col-full-xs">
+		<a class="article_movie_poster" href="https://www.rottentomatoes.com/m/spiderman_2">
+			<div><img class='article_poster' src='https://resizing.flixster.com/IUM0eq1xZ6TLBCbd5KyS9XSiaZI=/fit-in/180x240/v2/https://resizing.flixster.com/-XZAfHZM39UwaGJIFWKAE8fS0ak=/v3/t/assets/p34442_p_v10_aq.jpg' alt='' style='border-color: #EEEEEE;border-style: solid;border-width: 1px'></div>
+		</a>
+	</div>
+	<div class="col-sm-18 col-full-xs countdown-item-content">
+		<div class="row countdown-item-title-bar">
+			<div class="col-sm-20 col-full-xs" style="height: 100%;" >
+				<div class="article_movie_title" style="float: left;">
+											<h2>
+							<a href="https://www.rottentomatoes.com/m/spiderman_2">Spider-Man 2</a>
+
+															<span class='subtle start-year'>(2004)</span>
+														<br />
+															<img decoding="async" class="icon tiny" src="https://images.fandango.com/cms/assets/c6672520-d359-11ea-a15f-bdf29fa24277--certified-fresh.png" alt="Tomatometer icon" /> <span class="tMeterScore" style='margin-right: 10px;'>93%</span>
+																						<img decoding="async" class="icon tiny" src="https://images.fandango.com/cms/assets/d45a9e00-d359-11ea-b5d9-dd031ef2e6cb--upright.png" alt="Popcornmeter icon" /> <span class="tMeterScore" style='margin-right: 10px;'>82%</span>
+													</h2>
+									</div>
+			</div>
+			<div class="col-sm-4 col-full-xs" style="height: 100%;">
+				<div class="countdown-index">#15</div>
+			</div>
+		</div>
+		<div class="row countdown-item-details">
+			<div class="col-sm-24">
+				
+									<div class="info critics-consensus">
+						<span class="descriptor">Critics Consensus:</span> Boasting an entertaining villain and deeper emotional focus, this is a nimble sequel that improves upon the original.					</div>
+				
+									<div class="info synopsis">
+						<span class="descriptor">Synopsis:</span> When a failed nuclear fusion experiment results in an explosion that kills his wife, Dr. Otto Octavius (Alfred Molina) is						<a class="" target="_top" data-pageheader=""  href="https://www.rottentomatoes.com/m/spiderman_2"> [More]</a>
+
+					</div>
+				
+				
+<div class="info cast">
+	<span class="descriptor">
+		Starring:	</span>
+			<a class="" href="//www.rottentomatoes.com/celebrity/tobey_maguire">Tobey Maguire</a>, 				<a class="" href="//www.rottentomatoes.com/celebrity/kirsten_dunst">Kirsten Dunst</a>, 				<a class="" href="//www.rottentomatoes.com/celebrity/james_franco">James Franco</a>, 				<a class="" href="//www.rottentomatoes.com/celebrity/alfred_molina">Alfred Molina</a>		</div>
+				
+<div class="info director">
+	<span class="descriptor">
+		Directed By:	</span>
+			<a class="" href="//www.rottentomatoes.com/celebrity/sam_raimi">Sam Raimi</a>		</div>			</div>
+		</div>
+	</div>
+</div><br />
+
+<div id="row-index-16" class="row countdown-item" style="padding-left: 10px;">
+	<div class="countdown-index-resposive">#16</div>
+
+	<div class="col-sm-6 col-full-xs">
+		<a class="article_movie_poster" href="https://www.rottentomatoes.com/m/spider_man_homecoming">
+			<div><img class='article_poster' src='https://resizing.flixster.com/lh2VSeJLD9RflTdMDq0q8CPANfI=/fit-in/180x240/v2/https://resizing.flixster.com/-XZAfHZM39UwaGJIFWKAE8fS0ak=/v3/t/assets/p12798844_p_v8_ao.jpg' alt='' style='border-color: #EEEEEE;border-style: solid;border-width: 1px'></div>
+		</a>
+	</div>
+	<div class="col-sm-18 col-full-xs countdown-item-content">
+		<div class="row countdown-item-title-bar">
+			<div class="col-sm-20 col-full-xs" style="height: 100%;" >
+				<div class="article_movie_title" style="float: left;">
+											<h2>
+							<a href="https://www.rottentomatoes.com/m/spider_man_homecoming">Spider-Man: Homecoming</a>
+
+															<span class='subtle start-year'>(2017)</span>
+														<br />
+															<img decoding="async" class="icon tiny" src="https://images.fandango.com/cms/assets/c6672520-d359-11ea-a15f-bdf29fa24277--certified-fresh.png" alt="Tomatometer icon" /> <span class="tMeterScore" style='margin-right: 10px;'>92%</span>
+																						<img decoding="async" class="icon tiny" src="https://images.fandango.com/cms/assets/d45a9e00-d359-11ea-b5d9-dd031ef2e6cb--upright.png" alt="Popcornmeter icon" /> <span class="tMeterScore" style='margin-right: 10px;'>87%</span>
+													</h2>
+									</div>
+			</div>
+			<div class="col-sm-4 col-full-xs" style="height: 100%;">
+				<div class="countdown-index">#16</div>
+			</div>
+		</div>
+		<div class="row countdown-item-details">
+			<div class="col-sm-24">
+				
+									<div class="info critics-consensus">
+						<span class="descriptor">Critics Consensus:</span> <em>Spider-Man: Homecoming</em> does whatever a second reboot can, delivering a colorful, fun adventure that fits snugly in the sprawling MCU without getting bogged down in franchise-building.					</div>
+				
+									<div class="info synopsis">
+						<span class="descriptor">Synopsis:</span> Thrilled by his experience with the Avengers, young Peter Parker returns home to live with his Aunt May. Under the						<a class="" target="_top" data-pageheader=""  href="https://www.rottentomatoes.com/m/spider_man_homecoming"> [More]</a>
+
+					</div>
+				
+				
+<div class="info cast">
+	<span class="descriptor">
+		Starring:	</span>
+			<a class="" href="//www.rottentomatoes.com/celebrity/tom_holland">Tom Holland</a>, 				<a class="" href="//www.rottentomatoes.com/celebrity/michael_keaton">Michael Keaton</a>, 				<a class="" href="//www.rottentomatoes.com/celebrity/robert_downey_jr">Robert Downey Jr.</a>, 				<a class="" href="//www.rottentomatoes.com/celebrity/marisa_tomei">Marisa Tomei</a>		</div>
+				
+<div class="info director">
+	<span class="descriptor">
+		Directed By:	</span>
+			<a class="" href="//www.rottentomatoes.com/celebrity/jon_watts">Jon Watts</a>		</div>			</div>
+		</div>
+	</div>
+</div><br />
+
+<div id="row-index-17" class="row countdown-item" style="padding-left: 10px;">
+	<div class="countdown-index-resposive">#17</div>
+
+	<div class="col-sm-6 col-full-xs">
+		<a class="article_movie_poster" href="https://www.rottentomatoes.com/m/guardians_of_the_galaxy">
+			<div><img class='article_poster' src='https://resizing.flixster.com/7H4GbcaDT6cXBE83fuTtMKSpBI0=/fit-in/180x240/v2/https://resizing.flixster.com/SneFHH-BDOhBkh7h1A-aNwcrxLM=/ems.cHJkLWVtcy1hc3NldHMvbW92aWVzL2U3YTY2YTQzLTU5NDgtNDNiMC04ZTI1LTFiZDYyMTMxMjc5MC5qcGc=' alt='' style='border-color: #EEEEEE;border-style: solid;border-width: 1px'></div>
+		</a>
+	</div>
+	<div class="col-sm-18 col-full-xs countdown-item-content">
+		<div class="row countdown-item-title-bar">
+			<div class="col-sm-20 col-full-xs" style="height: 100%;" >
+				<div class="article_movie_title" style="float: left;">
+											<h2>
+							<a href="https://www.rottentomatoes.com/m/guardians_of_the_galaxy">Guardians of the Galaxy</a>
+
+															<span class='subtle start-year'>(2014)</span>
+														<br />
+															<img decoding="async" class="icon tiny" src="https://images.fandango.com/cms/assets/c6672520-d359-11ea-a15f-bdf29fa24277--certified-fresh.png" alt="Tomatometer icon" /> <span class="tMeterScore" style='margin-right: 10px;'>92%</span>
+																						<img decoding="async" class="icon tiny" src="https://images.fandango.com/cms/assets/d45a9e00-d359-11ea-b5d9-dd031ef2e6cb--upright.png" alt="Popcornmeter icon" /> <span class="tMeterScore" style='margin-right: 10px;'>92%</span>
+													</h2>
+									</div>
+			</div>
+			<div class="col-sm-4 col-full-xs" style="height: 100%;">
+				<div class="countdown-index">#17</div>
+			</div>
+		</div>
+		<div class="row countdown-item-details">
+			<div class="col-sm-24">
+				
+									<div class="info critics-consensus">
+						<span class="descriptor">Critics Consensus:</span> <em>Guardians of the Galaxy</em> is just as irreverent as fans of the frequently zany Marvel comic would expect -- as well as funny, thrilling, full of heart, and packed with visual splendor.					</div>
+				
+									<div class="info synopsis">
+						<span class="descriptor">Synopsis:</span> Brash space adventurer Peter Quill (Chris Pratt) finds himself the quarry of relentless bounty hunters after he steals an orb						<a class="" target="_top" data-pageheader=""  href="https://www.rottentomatoes.com/m/guardians_of_the_galaxy"> [More]</a>
+
+					</div>
+				
+				
+<div class="info cast">
+	<span class="descriptor">
+		Starring:	</span>
+			<a class="" href="//www.rottentomatoes.com/celebrity/chris_pratt">Chris Pratt</a>, 				<a class="" href="//www.rottentomatoes.com/celebrity/zoe_zaldana">Zoe Saldaña</a>, 				<a class="" href="//www.rottentomatoes.com/celebrity/dave_bautista">Dave Bautista</a>, 				<a class="" href="//www.rottentomatoes.com/celebrity/vin_diesel">Vin Diesel</a>		</div>
+				
+<div class="info director">
+	<span class="descriptor">
+		Directed By:	</span>
+			<a class="" href="//www.rottentomatoes.com/celebrity/james_gunn">James Gunn</a>		</div>			</div>
+		</div>
+	</div>
+</div><br />
+
+<div id="row-index-18" class="row countdown-item" style="padding-left: 10px;">
+	<div class="countdown-index-resposive">#18</div>
+
+	<div class="col-sm-6 col-full-xs">
+		<a class="article_movie_poster" href="https://www.rottentomatoes.com/m/1017712-robocop">
+			<div><img class='article_poster' src='https://resizing.flixster.com/mmlcpkSN3zK5Uehq4-Cuh9kKsDo=/fit-in/180x240/v2/https://resizing.flixster.com/-XZAfHZM39UwaGJIFWKAE8fS0ak=/v3/t/assets/p10144_p_v13_aw.jpg' alt='' style='border-color: #EEEEEE;border-style: solid;border-width: 1px'></div>
+		</a>
+	</div>
+	<div class="col-sm-18 col-full-xs countdown-item-content">
+		<div class="row countdown-item-title-bar">
+			<div class="col-sm-20 col-full-xs" style="height: 100%;" >
+				<div class="article_movie_title" style="float: left;">
+											<h2>
+							<a href="https://www.rottentomatoes.com/m/1017712-robocop">RoboCop</a>
+
+															<span class='subtle start-year'>(1987)</span>
+														<br />
+															<img decoding="async" class="icon tiny" src="https://images.fandango.com/cms/assets/c6672520-d359-11ea-a15f-bdf29fa24277--certified-fresh.png" alt="Tomatometer icon" /> <span class="tMeterScore" style='margin-right: 10px;'>92%</span>
+																						<img decoding="async" class="icon tiny" src="https://images.fandango.com/cms/assets/d45a9e00-d359-11ea-b5d9-dd031ef2e6cb--upright.png" alt="Popcornmeter icon" /> <span class="tMeterScore" style='margin-right: 10px;'>84%</span>
